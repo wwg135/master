@@ -5,8 +5,8 @@
 【 QX  脚本配置 】:
 ===================
 [rewrite_local]
-^https:\/\/me\-api\.jd\.com\/user_new\/info\/GetJDUserInfoUnion url script-echo-response https://raw.githubusercontent.com/id77/QuantumultX/master/Script/uploadJDCookie.js
-^https:\/\/un\.m\.jd\.com\/cgi\-bin\/app\/appjmp\?tokenKey= url script-response-header https://raw.githubusercontent.com/id77/QuantumultX/master/Script/uploadJDCookie.js
+^https:\/\/me\-api\.jd\.com\/user_new\/info\/GetJDUserInfoUnion url script-echo-response https://raw.githubusercontent.com/wwg135/Quantumult-X/Quantumult-X/uploadJDCookie.js
+^https:\/\/un\.m\.jd\.com\/cgi\-bin\/app\/appjmp\?tokenKey= url script-response-header https://raw.githubusercontent.com/wwg135/Quantumult-X/Quantumult-X/uploadJDCookie.js
  *
  */
 
