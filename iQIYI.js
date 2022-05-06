@@ -1,22 +1,12 @@
 /*
 爱奇艺会员签到脚本
-更新时间: 2022.2.7
-脚本兼容: QuantumultX, Surge4, Loon, JsBox, Node.js
-电报频道: @NobyDa
-问题反馈: @NobyDa_bot
+
+更新时间: 2022.05.06 20:25
+脚本兼容: QuantumultX
 获取Cookie说明：
 Safari浏览器打开 https://m.iqiyi.com/user.html 使用密码登录, 如通知成功获取cookie则可使用该脚本.
 获取Cookie后, 请将Cookie脚本禁用并移除主机名，以免产生不必要的MITM.
 脚本将在每天上午9:00执行, 您可以修改执行时间。
-如果使用Node.js, 需自行安装'request'模块. 例: npm install request -g
-Node.js环境变量相关：
-Cookie：IQIYI_COOKIE
-Debug调试：IQIYI_DEBUG
-Bark通知推送Key：BARK_PUSH
-Bark服务端(默认官方)：BARK_SERVER
-JsBox, Node.js用户获取Cookie说明：
-方法一手机：开启抓包, 网页登录 https://m.iqiyi.com/user.html 返回抓包APP搜索URL关键字 apis/user/info.action 复制请求头中的Cookie字段填入以下脚本变量或环境变量中即可
-方法二PC：网页登录 https://www.iqiyi.com 按F12控制台执行 console.log(document.cookie) 复制打印的Cookie填入以下脚本变量或环境变量中即可
 */
 
 var cookie = ''; //单引号内填入手动获取的Cookie
@@ -37,23 +27,6 @@ QuantumultX 远程脚本配置:
 [mitm]
 hostname= passport.iqiyi.com
 **********************
-Surge 4.2.0+ 脚本配置:
-**********************
-[Script]
-爱奇艺签到 = type=cron,cronexp=0 9 * * *,timeout=120,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
-爱奇艺获取Cookie = type=http-request,pattern=^https:\/\/passport\.iqiyi\.com\/apis\/user\/info\.action,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
-[MITM]
-hostname= passport.iqiyi.com
-************************
-Loon 2.1.0+ 脚本配置:
-************************
-[Script]
-# 爱奇艺签到
-cron "0 9 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
-# 获取Cookie
-http-request ^https:\/\/passport\.iqiyi\.com\/apis\/user\/info\.action script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
-[Mitm]
-hostname= passport.iqiyi.com
 */
 
 var LogDetails = false; // 响应日志
