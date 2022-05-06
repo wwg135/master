@@ -1,7 +1,7 @@
 /**
 彩云天气 v1.0 
 @author: wwg135     更新时间：2022.05.06 20：32
-更新地址：https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js
+更新地址：https://raw.githubusercontent.com/wwg135/Quantumult-X/Quantumult-X/caiyun.js
  *
 功能：
 √ 自动定位
