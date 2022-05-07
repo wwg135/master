@@ -132,7 +132,7 @@ async function query() {
     );
   }
   // query API
-  const url = `https://api.caiyunapp.com/v2.5/${$.read("token").caiyun}/${$.read("location").longitude
+  const url = `https://api.caiyunapp.com/v2.5/rs7ogF9cB5rMT5x1/${$.read("location").longitude
     },${$.read("location").latitude
     }/weather?lang=zh_CN&dailystart=0&hourlysteps=384&dailysteps=16&alert=true`;
 
