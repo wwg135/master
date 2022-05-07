@@ -1,6 +1,6 @@
 /**
-彩云天气 v1.0.1 
-@author: wwg135     更新时间：2022.05.07 20：56
+彩云天气 v1.0.2 
+@author: wwg135     更新时间：2022.05.07 21:42
 更新地址：https://raw.githubusercontent.com/wwg135/Quantumult-X/Quantumult-X/cy.js
  *
 功能：
@@ -18,7 +18,6 @@ Quantumult X
 hostname=weather-data.apple.com, api.weather.com
 [rewrite_local]
 https:\/\/((weather-data\.apple)|(api.weather))\.com url script-request-header https://raw.githubusercontent.com/wwg135/Quantumult-X/Quantumult-X/cy.js
-
 2️⃣ 打开手机设置 > 隐私 > 定位服务
 (1) 打开定位服务
 (2) 选择天气，设置永远允许天气访问位置信息，并允许使用精确位置。
