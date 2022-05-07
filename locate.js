@@ -1,7 +1,7 @@
 /**
 自动定位脚本
 @author: wwg135
-更新地址：https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tools/Location/locate.js
+更新地址：https://raw.githubusercontent.com/wwg135/Quantumult-X/Quantumult-X/locate.js
 Quantumult X
 [MITM]
 hostname=weather-data.apple.com, api.weather.com
