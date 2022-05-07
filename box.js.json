@@ -6,20 +6,6 @@
   "repo": "https://github.com/Peng-YM/QuanX",
   "apps": [
     {
-      "id": "Github Monitor",
-      "name": "GitHub 监控",
-      "keys": ["@github.repo"],
-      "settings": [
-        {
-          "id": "@github.repo",
-          "name": "仓库地址",
-          "val": "[\n\t\t{\n\t\t\t\t\"name\": \"NZW9314 脚本\",\n\t\t\t\t\"url\": \"https://github.com/nzw9314/QuantumultX/tree/master\"\n\t\t},\n\t\t{\n\t\t\t\t\"name\": \"Chavy 脚本\",\n\t\t\t\t\"url\": \"https://github.com/chavyleung/scripts\"\n\t\t},\n\t\t{\n\t\t\t\t\"name\": \"NobyDa\",\n\t\t\t\t\"file_names\": [\"JD-DailyBonus/JD_DailyBonus.js\", \"52pojie-DailyBonus\"],\n\t\t\t\t\"url\": \"https://github.com/NobyDa/Script/tree/master\"\n\t\t}\n]",
-          "type": "textarea",
-          "autoGrow": true,
-          "rows": 5,
-          "desc": "仓库地址 (JSON 格式)"
-        },
-    {
       "id": "Caiyun",
       "name": "彩云天气",
       "keys": [
