@@ -163,8 +163,7 @@ async function query() {
     await $.wait(Math.random() * 2000);
     $.log("Query location...");
     address = await $.http.get(
-      `https://apis.map.qq.com/ws/geocoder/v1/?key=${$.read("token").tencent
-      }&location=${$.read("location").latitude},${$.read("location").longitude}`
+      `https://apis.map.qq.com/ws/geocoder/v1/?key=L6EBZ-SDPLR-2KRWL-WHFSG-LC3H6-LLFEP&location=${$.read("location").latitude},${$.read("location").longitude}`
     )
       .then((resp) => {
         const body = JSON.parse(resp.body);
