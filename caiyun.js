@@ -17,7 +17,7 @@ Quantumult X
 [MITM]
 hostname=weather-data.apple.com, api.weather.com
 [rewrite_local]
-https:\/\/((weather-data\.apple)|(api.weather))\.com url script-request-header https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js
+https:\/\/((weather-data\.apple)|(api.weather))\.com url script-request-header https://raw.githubusercontent.com/wwg135/Quantumult-X/Quantumult-X/caiyun.js
 
 2️⃣ 打开手机设置 > 隐私 > 定位服务
 (1) 打开定位服务
