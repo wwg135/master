@@ -1,6 +1,6 @@
 /**
 彩云天气 v1.0.2 
-@author: wwg135     更新时间：2022.05.07 21:42
+@author: wwg135     更新时间：2022.05.08 11：32
 更新地址：https://raw.githubusercontent.com/wwg135/Quantumult-X/Quantumult-X/cy.js
  *
 功能：
