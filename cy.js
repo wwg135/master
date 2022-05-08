@@ -140,7 +140,7 @@ async function query() {
   const weather = await $.http.get({
     url,
     headers: {
-      "User-Agent": "ColorfulCloudsPro/5.0.10 (iPhone; iOS 14.0; Scale/3.00)",
+      "User-Agent": "ColorfulClouds/6.5.0 (iPhone; iOS 15.5; Scale/3.00)",
     },
   })
     .then((resp) => {
