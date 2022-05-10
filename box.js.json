@@ -64,5 +64,33 @@
       ],
       "script": "https://raw.githubusercontent.com/wwg135/Quantumult-X/Quantumult-X/caiyun.js"
     }
+    {
+      "id": "ksjsbCookie",
+      "name": "快手极速版",
+      "keys": ["ksjsbCookie"],
+      "descs_html": [        
+        "脚本地址【<a href=\"https://gitee.com/lxk0301/jd_scripts/raw/master/JD_extra_cookie.js\">快手极速版</a>】，有问题可以提issue",
+        "使用方式：自己抓包获取相应的字段。多账号用@连接",
+        "注：本文件改自lxk大佬"
+      ],
+      "settings": [
+        {
+          "id": "ksjsbCookie",
+          "name": "CK 列表",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "ksjsbCookie"
+        }
+      ],
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/conceay/self-bin@main/Pic/ksjsb.jpg",
+        "https://cdn.jsdelivr.net/gh/conceay/self-bin@main/Pic/ksjsb.jpg"
+      ],
+      "author": "@treasunew",
+      "repo": "https://github.com/treasunew/SillyLib",
+      "script": "https://raw.githubusercontent.com/treasunew/SillyLib/main/JavaScript/ksjsb.js"
+    }
   ]
 }
