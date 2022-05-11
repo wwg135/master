@@ -599,11 +599,6 @@ HOST,ivy.pchouse.com.cn, reject
 HOST-SUFFIX,deliver.ifeng.com, reject
 HOST,api.newad.ifeng.com, reject
 HOST,ifengad.3g.ifeng.com, reject
-# (Q)
-# > QingTing
-HOST,ad.qingting.fm, reject
-HOST,adlaunch.qingting.fm, reject
-HOST,ad-cdn.qingting.fm, reject
 # > OPPO
 HOST-SUFFIX,ads.oppomobile.com, reject
 HOST,adsfs.oppomobile.com, reject
@@ -654,16 +649,6 @@ HOST,etl.xlmc.sandai.net, reject
 HOST,adv-adlog.variflight.com, reject
 HOST,adv-ads.variflight.com, reject
 HOST,app-ad.variflight.com, reject
-# > vivo
-HOST,adlog.vivo.com.cn, reject
-HOST,adreq.vivo.com.cn, reject
-HOST,ads-marketing-vivofs.vivo.com.cn, reject
-HOST,adsdk.vivo.com.cn, reject
-HOST,adsstatic.vivo.com.cn, reject
-HOST,adxlog.vivo.com.cn, reject
-HOST,vcardsdkservice.vivo.com.cn, reject
-HOST-KEYWORD,stsdk.vivo.com.cn, reject
-HOST-KEYWORD,stsdk.vivoglobal.com, reject
 # > 微博
 HOST-KEYWORD,fastimage.uve.weibo.com, reject
 HOST-KEYWORD,adimg.uve.weibo.com, reject
@@ -793,7 +778,6 @@ HOST-SUFFIX,cm.game.bilibili.com, reject
 HOST-SUFFIX,cm.track.biligame.bilibili.com, reject
 # > 快手
 HOST-SUFFIX,yximgs.com, reject
-HOST-SUFFIX,e.kuaishou.com, reject
 HOST,js-ad.a.yximgs.com, reject
 HOST-SUFFIX,cm.downloader.commercial.kuaishou.com, reject
 HOST-SUFFIX,cm.ad.gifshow.com, reject
