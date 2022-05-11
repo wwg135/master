@@ -1,0 +1,96 @@
+{
+  "id": "wwg135.app.sub",
+  "name": "wwg135 应用订阅",
+  "author": "wwg135",
+  "icon": "https://avatars2.githubusercontent.com/u/21050064?s=460&u=40a74913dd0a3d00670d05148c3a08c787470021&v=4",
+  "repo": "https://github.com/wwg135/Quantumult-X",
+  "apps": [
+    {
+      "id": "Caiyun",
+      "name": "彩云天气",
+      "keys": [
+        "@caiyun.token.caiyun",
+        "@caiyun.token.tencent",
+        "@caiyun.display_location",
+        "@caiyun.location.latitude",
+        "@caiyun.location.longitude",
+        "@caiyun.address"
+      ],
+      "settings": [
+        {
+          "id": "@caiyun.token.caiyun",
+          "name": "彩云天气API Token",
+          "val": null,
+          "type": "text",
+          "autoGrow": false,
+          "rows": 2,
+          "desc": "彩云天气的Token，可以自行申请或者前往频道获取"
+        },
+        {
+          "id": "@caiyun.token.tencent",
+          "name": "腾讯地图API Token",
+          "val": "L6EBZ-SDPLR-2KRWL-WHFSG-LC3H6-LLFEP",
+          "type": "text",
+          "rows": 1,
+          "desc": ""
+        },
+        {
+          "id": "@caiyun.display_location",
+          "name": "是否在日志中显示经纬度",
+          "val": false,
+          "type": "boolean",
+          "desc": ""
+        },
+        {
+          "id": "@caiyun.location.latitude",
+          "name": "纬度",
+          "val": null,
+          "type": "text",
+          "desc": "纬度，可以关闭MITM获取位置，手动设置"
+        },
+        {
+          "id": "@caiyun.location.longitude",
+          "name": "经度",
+          "val": null,
+          "type": "text",
+          "desc": "经度，可以关闭MITM获取位置，手动设置"
+        }
+      ],
+      "author": "wwg135",
+      "repo": "https://github.com/wwg135/Quantumult-X",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/caiyun.png",
+        "https://raw.githubusercontent.com/Orz-3/task/master/caiyun.png"
+      ],
+      "script": "https://raw.githubusercontent.com/wwg135/Quantumult-X/Quantumult-X/caiyun.js"
+    },
+    {
+      "id": "ksjsbCookie",
+      "name": "快手极速版",
+      "keys": ["ksjsbCookie"],
+      "descs_html": [        
+        "脚本地址【<a href=\"https://gitee.com/lxk0301/jd_scripts/raw/master/JD_extra_cookie.js\">快手极速版</a>】，有问题可以提issue",
+        "使用方式：自己抓包获取相应的字段。多账号用@连接",
+        "注：本文件改自lxk大佬"
+      ],
+      "settings": [
+        {
+          "id": "ksjsbCookie",
+          "name": "CK 列表",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "ksjsbCookie"
+        }
+      ],
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/conceay/self-bin@main/Pic/ksjsb.jpg",
+        "https://cdn.jsdelivr.net/gh/conceay/self-bin@main/Pic/ksjsb.jpg"
+      ],
+      "author": "wwg135",
+      "repo": "https://github.com/wwg135/Quantumult-X",
+      "script": "https://raw.githubusercontent.com/wwg135/Quantumult-X/Quantumult-X/ksjsb.js"
+    }
+  ]
+}
