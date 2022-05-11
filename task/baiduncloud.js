@@ -3,7 +3,7 @@
 百度网盘解锁vip，视频倍速播放
 
 QX1.0.28:
-https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/zwf234/rules/master/js/BaiduCloud.js
+https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/wwg135/master/Quantumult-X/task/baiduncloud.js
 
 MITM = pan.baidu.com
 */
