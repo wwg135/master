@@ -283,9 +283,8 @@ HOST-SUFFIX,cpro2.baidu.com, reject
 HOST-SUFFIX,cpu-admin.baidu.com, reject
 # > 百度贴吧屏蔽域名dns查询
 IP-CIDR,180.76.76.200/32,REJECT
-# > 百度贴吧屏蔽ws(副作用:消息通知功能失效,需手动进入查看),强制帖子接口走http
+# > 百度贴吧屏蔽ws
 HOST,im.tieba.baidu.com,REJECT
-## /*  
 HOST-SUFFIX,10086.cn.baidu.cdn.yiwk.com, reject
 HOST-SUFFIX,360baidus.com, reject
 HOST-SUFFIX,app.ibaiducdn.com, reject
@@ -415,22 +414,6 @@ HOST-SUFFIX,api-access.pangolin-sdk-toutiao-b.com, reject
 HOST,ad.toutiao.com, reject
 HOST,dsp.toutiao.com, reject
 host-keyword,pangolin.snssdk.com, reject
-# > baicizhan
-HOST,advertise.baicizhan.com, reject
-HOST,advertise.baicizhan.org, reject
-# > 易车
-HOST,adx.yiche.com, reject
-HOST,log.ycapp.yiche.com, reject
-# > Braze
-HOST-SUFFIX,iad.appboy.com, reject
-HOST-SUFFIX,iad-03.appboy.com, reject
-HOST-SUFFIX,iad-01.braze.com, reject
-HOST-SUFFIX,iad-02.braze.com, reject
-HOST-SUFFIX,iad-03.braze.com, reject
-HOST-SUFFIX,iad-04.braze.com, reject
-HOST-SUFFIX,iad-05.braze.com, reject
-HOST-SUFFIX,iad-06.braze.com, reject
-HOST-SUFFIX,iad-08.braze.com, reject
 # > 央视
 HOST-SUFFIX,a.cctv.com, reject
 HOST-SUFFIX,ad.cctv.com, reject
@@ -449,19 +432,6 @@ HOST,vdapprecv.app.cntvwb.cn, reject
 HOST-SUFFIX,mdrecv.app.cntvwb.cn, reject
 HOST-SUFFIX,sdapprecv.app.cntvwb.cn, reject
 HOST-SUFFIX,vdapprecv.app.cntvwb.cn, reject
-# > 中国电信
-HOST,ad.21cn.com, reject
-HOST,ad.k.21cn.com, reject
-HOST,admarket.21cn.com, reject
-HOST,adshows.21cn.com, reject
-# > 车来乐
-HOST,atrace.chelaile.net.cn, reject
-HOST,logs.chelaile.net.cn, reject
-# > Camera360
-HOST,dispatcher.360in.com, reject
-HOST,ad.360in.com, reject
-HOST,exp.360in.com, reject
-# (G)
 # > 谷歌
 HOST-SUFFIX,google-analytics.com, reject
 HOST,safebrowsing.googleapis.com, reject
@@ -486,7 +456,6 @@ HOST-SUFFIX,afd.l.google.com, reject
 HOST-SUFFIX,www.googleadservices.com, reject
 HOST-SUFFIX,www.google-analytics.com, reject
 HOST,ads.youtube.com, reject
-# (H)
 # > 湖南卫视
 HOST-SUFFIX,da.mgtv.com, reject
 HOST-SUFFIX,da.hunantv.com, reject
@@ -496,20 +465,6 @@ HOST-SUFFIX,v2.hunantv.com, reject
 HOST,adx.hupu.com, reject
 HOST,adx-api.hupu.com, reject
 HOST,goblin.hupu.com, reject
-# > 快乐广播
-HOST,ad.hpplay.cn, reject
-HOST,adc.hpplay.cn, reject
-HOST,adcdn.hpplay.cn, reject
-HOST,adeng.hpplay.cn, reject
-HOST,pin.hpplay.cn, reject
-HOST,rp.hpplay.cn, reject
-HOST,rpt.hpplay.cn, reject
-# (J)
-# >jxedt
-HOST,richmanapi.jxedt.com, reject
-HOST,richmanmain.jxedt.com, reject
-HOST,richmanrules.jxedt.com, reject
-# (K)
 # > 金山词霸
 HOST,ad-stat.ksosoft.com, reject
 HOST,img.auction-ads.wpscdn.cn, reject
@@ -519,7 +474,6 @@ HOST,minfo.wps.cn, reject
 HOST,mobad.ijinshan.com, reject
 HOST,ups.ksmobile.net, reject
 HOST,ws.ksmobile.net, reject
-# (L)
 # > 乐视
 HOST-SUFFIX,webp2p.letv.com, reject
 HOST,ark.letv.com, reject
@@ -538,23 +492,6 @@ HOST-SUFFIX,ads2.msn.com, reject
 HOST-SUFFIX,bingads.microsoft.com, reject
 HOST-SUFFIX,rads.msn.com, reject
 HOST,mobileads.msn.com, reject
-# > 讯飞输入法广告
-host-keyword, ossp.voicecloud.cn, reject
-host-keyword, bj.imp.voiceads.cn, reject
-host-keyword, m.panda.voiceads.cn, reject
-host-keyword, iflyad.bj.openstorage.cn, reject
-# > 墨迹天气
-host-keyword, fds.api.moji.com, reject
-host-keyword, me.api.moji.com, reject
-host-keyword, android.bugly.qq.com, reject
-host-keyword, av1.xdrig.com, reject
-host-keyword, adash.man.aliyuncs.com, reject
-host-keyword, v1.log.moji.com, reject
-host-keyword, ad.api.moji.com, reject
-HOST,ad.api.moji.com, reject
-HOST,adlaunch.moji.com, reject
-HOST,ads.mojicdn.com, reject
-HOST,v1.log.moji.com, reject
 # > 中华万年历广告
 host-keyword, lkme.cc, reject
 host-keyword, api.freed.so, reject
@@ -570,7 +507,6 @@ HOST,ggmk.miguvideo.com, reject
 HOST,ggv.cmvideo.cn, reject
 HOST,ggx.cmvideo.cn, reject
 HOST,ggx03.miguvideo.com, reject
-# (N)
 # > 网易
 HOST-SUFFIX,dsp.youdao.com, reject
 HOST-SUFFIX,union.youdao.com, reject
@@ -589,18 +525,11 @@ HOST,n.3g.163.com, reject
 HOST,nex.163.com, reject
 HOST,yt-adp.nosdn.127.net, reject
 HOST,yt-adp.ws.126.net, reject
-# (P)
 # > PPTV
 HOST,ads.aplus.pptv.com, reject
 HOST,ads.aplusapi.pptv.com, reject
 HOST,asimgs.pplive.cn, reject
 HOST,de.as.pptv.com, reject
-# > Photoable
-HOST,regist.fotoable.com, reject
-HOST,cdn.adapi.fotoable.com, reject
-# > PeanutWiFi
-HOST,adnew.wifi8.com, reject
-HOST,adfile.wifi8.com, reject
 # > WiFi万能钥匙广告
 host-keyword, app.51y5.net, reject
 host-keyword, apiinit.amap.com, reject
@@ -641,26 +570,13 @@ host-keyword, s3.pstatp.com, reject
 host-keyword, a3.pstatp.com, reject
 host-keyword, a3.bytecdn.cn, reject
 host-keyword, ichannel.snssdk.com, reject
-# > PConline
-HOST,ad-analysis.pconline.com.cn, reject
-HOST,iad0ssl.pcauto.com.cn, reject
-HOST,iad0ssl.pconline.com.cn, reject
-HOST,imgad0.pcauto.com.cn, reject
-HOST,imgad0.pconline.com.cn, reject
-HOST,ivy.pchouse.com.cn, reject
 # > 凤凰新媒体
 HOST-SUFFIX,deliver.ifeng.com, reject
 HOST,api.newad.ifeng.com, reject
 HOST,ifengad.3g.ifeng.com, reject
-# (Q)
-# > QingTing
-HOST,ad.qingting.fm, reject
-HOST,adlaunch.qingting.fm, reject
-HOST,ad-cdn.qingting.fm, reject
 # > OPPO
 HOST-SUFFIX,ads.oppomobile.com, reject
 HOST,adsfs.oppomobile.com, reject
-# (S)
 # > 新浪
 HOST-SUFFIX,beacon.sina.com.cn, reject
 HOST,u1.img.mobile.sina.cn, reject
@@ -672,13 +588,6 @@ HOST-SUFFIX,ad.sohu.com, reject
 HOST-SUFFIX,ads.sohu.com, reject
 HOST-SUFFIX,aty.sohu.com, reject
 HOST,hui.sohu.com, reject
-# > Snapchat
-HOST,ads.snapchat.com, reject
-HOST,adsapi.snapchat.com, reject
-# > 创维
-HOST-SUFFIX,hoisin.coocaa.com, reject
-HOST-SUFFIX,hoisin.coocaatv.com, reject
-HOST,data-hoisin.coocaa.com, reject
 # >  腾讯
 HOST,safebrowsing.urlsec.qq.com, reject
 HOST-SUFFIX,oth.str.mdt.qq.com, reject
@@ -703,21 +612,9 @@ HOST,kgmobilestatbak.kugou.com, reject
 HOST,mobilelog.kugou.com, reject
 HOST,mobilead.kuwo.cn, reject
 HOST,rich.kuwo.cn, reject
-# > 同花顺
-HOST,adm.10jqka.com.cn, reject
-HOST,stat.10jqka.com.cn, reject
-# > The Paper
-HOST,admonitor.thepaper.cn, reject
-HOST,adpai.thepaper.cn, reject
-HOST,imgadpai.thepaper.cn, reject
 # > 迅雷
 HOST,adsp.xunlei.com, reject
 HOST,etl.xlmc.sandai.net, reject
-# (V)
-# > VariFlight
-HOST,adv-adlog.variflight.com, reject
-HOST,adv-ads.variflight.com, reject
-HOST,app-ad.variflight.com, reject
 # > vivo
 HOST,adlog.vivo.com.cn, reject
 HOST,adreq.vivo.com.cn, reject
@@ -781,21 +678,6 @@ HOST-KEYWORD,ad.weibo.com,REJECT
 HOST-KEYWORD,adstrategy.biz.weibo.com,REJECT
 HOST-KEYWORD,s.weibo.com,REJECT
 HOST-KEYWORD,vs.biz.weibo.com,REJECT
-# > 喜马拉雅
-HOST,ad.ximalaya.com, reject
-HOST,adbs.ximalaya.com, reject
-HOST,adse.ximalaya.com, reject
-HOST,adse.wsa.ximalaya.com, reject
-HOST,adbehavior.wsa.ximalaya.com, reject
-HOST,adbehavior.ximalaya.com, reject
-HOST,adsebs.ximalaya.com, reject
-HOST,adwbs.ximalaya.com, reject
-# >小红书
-HOST,ads-img-qc.xhscdn.com, reject
-HOST,ads-video-al.xhscdn.com, reject
-HOST,ads-video-qc.xhscdn.com, reject
-HOST,t-ads.xiaohongshu.com, reject
-# (Y)
 # > 雅虎
 HOST-SUFFIX,adserver.yahoo.com, reject
 HOST-SUFFIX,adspecs.yahoo.com, reject
@@ -806,7 +688,6 @@ HOST,ads.auctions.yahoo.com, reject
 HOST,ads.finance.yahoo.com, reject
 HOST,ads.yahoo.com, reject
 HOST,ads.yahoo.de, reject
-# (Z)
 # > 知乎
 USER-AGENT,AVOS*, reject
 HOST,appcloud2.in.zhihu.com, reject
@@ -852,8 +733,6 @@ HOST-SUFFIX,click.tz.simba.taobao.com, reject
 HOST-SUFFIX,stat.simba.taobao.com, reject
 HOST-SUFFIX,m-adash.m.taobao.com, reject
 HOST-SUFFIX,adashbc.m.taobao.com, reject
-# > 小小影视
-host,39d83s.com, reject
 # > 威锋
 host-keyword, p3-be-pack-sign.pglstatp-toutiao.com, reject
 host-keyword, sf3-be-pack.pglstatp-toutiao.com, reject
@@ -883,35 +762,12 @@ HOST-SUFFIX,cm.kwad.com, reject
 # > 人民日报
 host-keyword, sdk-conf.getui.com, reject
 host-keyword, c-hzgt2.getui.com, reject
-# > 蓝基因（弹窗还在，需要手动关闭）
-host-keyword,medicine.lanjiyin.com.cn, reject
-# > 美颜相机去首页和轮播广告
-host, adui.tg.meitu.com, reject
-host, aaid.uyunad.com, reject
-# > 真不卡
-HOST-SUFFIX, ttayy.cn, reject
-HOST-SUFFIX, zhengxiaoliu.top, reject
-# > NicoNico
-host, ads.nicovideo.jp, reject
-# > HDO
-HOST-SUFFIX, applovin.com,REJECT
-HOST-SUFFIX, applvn.com,REJECT
-# > 多多视频
-host-suffix, bayescom.com, reject
 # > 车来了（包括小程序）
 host-suffix, atrace.chelaile.net.cn, reject
 host, logs.chelaile.net.cn, reject
 host, ad.chelaile.net.cn, reject
 # > 铁路12306
 HOST, ad.12306.cn, REJECT
-# > 两步路
-HOST-SUFFIX, admobile.top, REJECT
-# > 皮皮虾（推荐视频不能预览）
-host-keyword,log-api.pangolin-sdk-toutiao-b.com, reject
-host-keyword,log-api.pangolin-sdk-toutiao.com, reject
-host-keyword,api-access.pangolin-sdk-toutiao.com, reject
-# > 影响端传媒正常运行，默认关闭
-# > HOST-SUFFIX, cloudfront.net, reject
 # > 其他广告
 host-keyword,extlog.snssdk.com, reject
 host-keyword,i.snssdk.com, reject
@@ -9467,27 +9323,6 @@ HOST-SUFFIX,wsgblw.com, reject
 HOST-SUFFIX,xchmai.com, reject
 HOST-SUFFIX,ygyzx.cn, reject
 HOST-SUFFIX,zmlled.cn, reject
-# > ChinaTelecom
-IP-CIDR,122.229.8.47/32, reject
-IP-CIDR,122.229.29.89/32, reject
-# > ChinaUnicom
-# > ChinaMobile
-IP-CIDR,120.240.95.37/32, reject
-# > Dr.Peng
-# IP-CIDR,10.72.25.0/24, reject
-IP-CIDR,211.161.101.110/32, reject
-# Malware
-# > Huawei AspiegelBot
-IP-CIDR,114.119.160.0/21, reject
-# > KuaiZip
-# https://zhuanlan.zhihu.com/p/39534279, reject
-HOST-SUFFIX,kuaizip.com, reject
-# > MacKeeper
-# https://www.lizhi.io/blog/40002904, reject
-HOST-SUFFIX,zryydi.com, reject
-# > Adobe Flash China Special Edition
-# https://www.zhihu.com/question/281163698/answer/441388130, reject
-HOST,geo2.adobe.com, reject
 # > C&J Marketing
 # https://www.zhihu.com/question/46746200, reject
 HOST-SUFFIX,alienskins.cn, reject
@@ -9546,20 +9381,5 @@ HOST-SUFFIX,zoomanalytics.co, reject
 HOST-SUFFIX,ads.linkedin.com, reject
 HOST,analytics.slashdotmedia.com, reject
 HOST,zgsdk.zhugeio.com, reject
-# > 51.LA
-HOST,js.users.51.la, reject
-HOST,mc.51.la, reject
-HOST,wc.51.la, reject
-# >58
 HOST,track.58.com, reject
 HOST,tracklog.58.com, reject
-# > Daum
-HOST,track.tiara.daum.net, reject
-HOST,track.tiara.kakao.com, reject
-# > GozenData
-# https://www.v2ex.com/t/772523, reject
-HOST-SUFFIX,gozendata.com, reject
-HOST-SUFFIX,gzads.com, reject
-HOST-SUFFIX,gz-data.com, reject
-# > GrowingIO
-HOST-SUFFIX,giocdn.com, reject
