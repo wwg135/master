@@ -1,28 +1,13 @@
-## /*  APP开屏广告拦截，APP启动广告拦截！
-##  a28413761  收集整理
-## 更新时间  2022.05.15
-## */  
+## APP开屏广告拦截，APP启动广告拦截
+## wwg135  收集整理
+## 更新时间  2022.05.15   18:10 
 
-# > 光大银行阳光惠生活
-host-keyword, talk.bz.getui.com, reject
-# > 民生银行
-host-keyword, cm-10-134.getui.com, reject
-host-keyword, sdk.open.talk.getui.com, reject
-host-keyword, cm-10-35.getui.com, reject
-host-keyword, c-hzgt2.getui.com, reject
 # > 云闪付
 host-keyword, switch.cup.com.cn, reject
 host-keyword, sdk.open.talk.getui.net, reject
 host-keyword, sdk-conf.getui.com, reject
 host-keyword, cm-10-138.getui.com, reject
 host-keyword, ads.95516.com, reject
-# >中信银行
-HOST-SUFFIX,sis.jpush.io, reject
-HOST-SUFFIX,s.jpush.cn, reject
-HOST-SUFFIX,jpush.cn, reject
-HOST-SUFFIX,im64.jpush.cn, reject
-HOST-SUFFIX,im.jpush.cn, reject
-HOST-SUFFIX,jpush.html5.qq.com, reject
 # > 酷狗，酷我音乐等多个app启动广告
 host-keyword, searchrecommend.kugou.com, reject
 host-keyword, nbcollectretry.kugou.com, reject
@@ -33,7 +18,6 @@ host-keyword, c1img.ali.kugou.com, reject
 host-keyword, kgstaticdlbssdlbig.tx.kugou.com, reject
 host-keyword, adsfilebssdlbig.ali.kugou.com, reject
 host-keyword, splashimgbssdl.yun.kugou.com, reject
-
 host-keyword, rich.kuwo.cn, reject
 host-keyword, mobilead.kuwo.cn, reject
 host-keyword, splashimgbssdl.yun.kugou.com, reject
@@ -43,17 +27,6 @@ HOST,pgdt.gtimg.cn, reject
 HOST-SUFFIX,pgdt.gtimg.cn, reject
 HOST,pgdt.gtimg.com, reject
 HOST,adsmind.gdtimg.com, reject
-# > 向日葵
-host, dm.toutiao.com, reject
-host-keyword, upload-cdn.orayimg.com, reject
-host, ddns.oray.com, reject
-host, sl-tk.oray.com, reject
-host, client-api.oray.com, reject
-host, push.oray.com, reject
-HOST-SUFFIX,offline-adv.oray.com, reject
-host-keyword, upload-cdn.orayimg.com-upload-activity, reject
-# > 小利生活
-host-keyword, mpos-pic.helipay.com, reject
 # > 懂车帝
 host-keyword, p3-pack.byteimg.com, reject
 host-keyword, p6-pack.byteimg.com, reject
@@ -93,12 +66,6 @@ HOST,data.mistat.xiaomi.com, reject
 HOST,tracking.intl.miui.com, reject
 # > TalkingData
 HOST-SUFFIX,cpatrk.net, reject
-# > 天神
-HOST,track.tenjin.com, reject
-HOST,track.tenjin.io, reject
-host, errlog.umeng.com, reject
-host, lf9-cdn-tos.bytegecko.com, reject
-host, novel.pangolin-sdk-toutiao.com, reject
 # > 高德
 HOST-SUFFIX,adiu.amap.com,REJECT
 HOST,aboard.apilocate.amap.com,REJECT
@@ -249,12 +216,6 @@ HOST-SUFFIX, wss.haoyundmn.com, reject
 HOST-SUFFIX, new.xiongzhangad.com, reject  
 HOST-SUFFIX, alexametrics.com, reject 
 HOST-KEYWORD, in-page-push, reject
-# > 广告
-# > 51wnl
-HOST,ad.51wnl-cq.com, reject
-HOST,adextra.51wnl-cq.com, reject
-HOST,log.51wnl-cq.com, reject
-HOST,r.51wnl-cq.com, reject
 # > 屏蔽苹果系统更新
 host, ns.itunes.apple.com, reject
 host, appldnld.apple.com, reject
@@ -284,7 +245,6 @@ HOST,adm0.autoimg.cn, reject
 HOST,adm1.autoimg.cn, reject
 HOST,adm2.autoimg.cn, reject
 HOST,adm3.autoimg.cn, reject
-# (B)
 # > 百度
 HOST-SUFFIX,duapps.com, reject
 HOST-SUFFIX,cpro.baidu.com, reject
