@@ -61,8 +61,6 @@ HOST-SUFFIX,v.gdt.qq.com, reject
 # > 小米
 HOST,data.mistat.xiaomi.com, reject
 HOST,tracking.intl.miui.com, reject
-# > TalkingData
-HOST-SUFFIX,cpatrk.net, reject
 # > 高德
 HOST-SUFFIX,adiu.amap.com,REJECT
 HOST,aboard.apilocate.amap.com,REJECT
@@ -344,10 +342,6 @@ HOST,ark.letv.com, reject
 HOST,emma-414870e223.huodonghezi.com, reject
 HOST,g3.letv.com, reject
 HOST,n.mark.letv.com, reject
-# > LinkWiFi
-HOST,a.wkanx.com, reject
-HOST,cwx.lianwangtech.com, reject
-HOST,c1wx.lianwangtech.com, reject
 # > 微软
 HOST-SUFFIX,ads.msn.com, reject
 HOST-SUFFIX,ads1.msn.com, reject
@@ -355,13 +349,6 @@ HOST-SUFFIX,ads2.msn.com, reject
 HOST-SUFFIX,bingads.microsoft.com, reject
 HOST-SUFFIX,rads.msn.com, reject
 HOST,mobileads.msn.com, reject
-# > 中华万年历广告
-host-keyword, lkme.cc, reject
-host-keyword, api.freed.so, reject
-host-keyword, log-dmp.suishenyun.cn, reject
-host-keyword, client-dmp.suishenyun.cn, reject
-host-keyword, pc.suishenyun.net, reject
-host-keyword, v0-client-lz.rili.cn, reject
 # > 咪咕视频
 HOST-SUFFIX,ad.cmvideo.cn, reject
 HOST,ggc.cmvideo.cn, reject
@@ -437,9 +424,6 @@ host-keyword, ichannel.snssdk.com, reject
 HOST-SUFFIX,deliver.ifeng.com, reject
 HOST,api.newad.ifeng.com, reject
 HOST,ifengad.3g.ifeng.com, reject
-# > OPPO
-HOST-SUFFIX,ads.oppomobile.com, reject
-HOST,adsfs.oppomobile.com, reject
 # > 新浪
 HOST-SUFFIX,beacon.sina.com.cn, reject
 HOST,u1.img.mobile.sina.cn, reject
@@ -583,18 +567,6 @@ HOST-SUFFIX,click.tz.simba.taobao.com, reject
 HOST-SUFFIX,stat.simba.taobao.com, reject
 HOST-SUFFIX,m-adash.m.taobao.com, reject
 HOST-SUFFIX,adashbc.m.taobao.com, reject
-# > 威锋
-host-keyword, p3-be-pack-sign.pglstatp-toutiao.com, reject
-host-keyword, sf3-be-pack.pglstatp-toutiao.com, reject
-host-keyword,sf1-be-pack.pglstatp-toutiao.com, reject
-host-keyword,sf1-fe-tos.pglstatp-toutiao.com, reject
-host-keyword,sf1-ttcdn-tos.pstatp.com, reject
-host-keyword,sf3-fe-tos.pglstatp-toutiao.com, reject
-host-keyword,sf3-ttcdn-tos.pstatp.com, reject
-host-keyword,sf6-fe-tos.pglstatp-toutiao.com, reject
-host-keyword,s3-fe-scm.pglstatp-toutiao.com, reject
-host-keyword,sf6-be-pack.pglstatp-toutiao.com, reject
-host-keyword,p9-be-pack-sign.pglstatp-toutiao.com, reject
 # > 哔哩哔哩
 HOST-SUFFIX,cm.bilibili.com, reject
 host-keyword, api.sobot.com, reject
