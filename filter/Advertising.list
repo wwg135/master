@@ -1,6 +1,6 @@
 ## APP开屏广告拦截，APP启动广告拦截
 ## wwg135  收集整理
-## 更新时间  2022.05.15   18:10 
+## 更新时间：2022.05.16   18:10 
 
 # > 云闪付
 host-keyword, switch.cup.com.cn, reject
@@ -27,9 +27,6 @@ HOST,pgdt.gtimg.cn, reject
 HOST-SUFFIX,pgdt.gtimg.cn, reject
 HOST,pgdt.gtimg.com, reject
 HOST,adsmind.gdtimg.com, reject
-# > 懂车帝
-host-keyword, p3-pack.byteimg.com, reject
-host-keyword, p6-pack.byteimg.com, reject
 # > 搜狗
 host, indivi-cdn.shouji.sogou.com/wapdl/hole, reject
 HOST-SUFFIX,epro.sogou.com, reject
@@ -89,125 +86,6 @@ HOST-SUFFIX, meituan.yoga, reject
 HOST-SUFFIX, meituangov.cn, reject
 HOST-SUFFIX, report.meituan.com, reject
 HOST-SUFFIX, wmlog.meituan.com, reject
-# > UC浏览器
-host-keyword, m.atm.youku.com, reject
-host-keyword, adp.atm.youku.com, reject
-host-keyword, clickc.admaster.com, reject
-host-keyword, count.atm.youku.com, reject
-host-keyword, ems.youku.com, reject
-host-keyword, fans.m.tmall.com, reject
-host-keyword, ktd.m.cn.miaozhen.com, reject
-host-keyword, r1.ykimg.com, reject
-host-keyword, v.admaster.com, reject
-host-keyword, v2.reachmax.cn, reject
-host-keyword, val.atm.youku.com, reject
-host-keyword, yktd.m.cn.miaozhen.com, reject
-host-keyword, server.m.pp.cn, reject
-host-keyword, puds.ucweb.com, reject
-host-keyword, wgo.mmstat.com, reject
-host-keyword, log.cs.pp.cn, reject
-host-keyword, applog.uc.cn, reject
-host-keyword, afpapi.alimama.com, reject
-host-keyword, a.9game.cn, reject
-host-keyword, track.uc.cn, reject
-host-keyword, adtrack.ucweb.com, reject
-host-keyword, utp-dmp.ucweb.com, reject
-host-keyword, utp.ucweb.com, reject
-host-keyword, huichuan.sm.cn, reject
-host-keyword, ynuf.alipay.com, reject
-host-keyword, pdds.ucweb.com, reject
-host-keyword, js.union-wifi.com, reject
-host-keyword, www.qmlog.cn, reject
-host-keyword, cpu.baidu.com, reject
-host-keyword, caclick.baidu.com, reject
-host-keyword, rescn.u3.ucweb.com, reject
-host, safe.ucweb.com, reject
-host, px.ucweb.com, reject
-host-keyword, editor.sm.cn, reject
-host-keyword, fc-video.cdn.bcebos.com, reject
-host-keyword, vs10.bj2ct.u3.ucweb.com, reject
-host, navigis.uc.cn, reject
-host, restapi.amap.com, reject
-host, order.sm.cn, reject
-host, ucdc-upaas.uc.cn, reject
-host, access.open.uc.cn, reject
-host, uc.ucweb.com, reject
-host, emoji.uc.cn, reject
-host, ssp-partner.alibaba.com, reject
-host, voice-service.uc.cn, reject
-host, v.uc.cn, reject
-host, coral.uc.cn, reject
-host, wolong-dsp.sm.cn, reject
-host, cartoonapi.uc.cn, reject
-host, umessage-online-zb.uc.cn, reject
-host, sealine.youku.com, reject
-host, api.c.uc.cn, reject
-host, aid.m.taobao.com, reject
-host, cms.uc.cn, reject
-host, applog-perf.uc.cn, reject
-HOST-SUFFIX,m.atm.youku.com, reject
-HOST-SUFFIX,adp.atm.youku.com, reject
-HOST-SUFFIX,clickc.admaster.com.cn, reject
-HOST-SUFFIX,count.atm.youku.com, reject
-HOST-SUFFIX,ems.youku.com, reject
-HOST-SUFFIX,fans.m.tmall.com, reject
-HOST-SUFFIX,ktd.m.cn.miaozhen.com, reject
-HOST-SUFFIX,r1.ykimg.com, reject
-HOST-SUFFIX,v.admaster.com.cn, reject
-HOST-SUFFIX,v2.reachmax.cn, reject
-HOST-SUFFIX,val.atm.youku.com, reject
-HOST-SUFFIX,yktd.m.cn.miaozhen.com, reject
-HOST-SUFFIX,server.m.pp.cn, reject
-HOST-SUFFIX,puds.ucweb.com, reject
-HOST-SUFFIX,wgo.mmstat.com, reject
-HOST-SUFFIX,log.cs.pp.cn, reject
-HOST-SUFFIX,applog.uc.cn, reject
-HOST-SUFFIX,afpapi.alimama.com, reject
-HOST-SUFFIX,a.9game.cn, reject
-HOST-SUFFIX,track.uc.cn, reject
-HOST-SUFFIX,adtrack.ucweb.com, reject
-HOST-SUFFIX,utp-dmp.ucweb.com, reject
-HOST-SUFFIX,utp.ucweb.com, reject
-HOST-SUFFIX,huichuan.sm.cn, reject
-HOST-SUFFIX,ynuf.alipay.com, reject
-HOST-SUFFIX,pdds.ucweb.com, reject
-HOST-SUFFIX,js.union-wifi.com, reject
-HOST-SUFFIX,qmlog.cn, reject
-HOST-SUFFIX,cpu.baidu.com, reject
-HOST-SUFFIX,caclick.baidu.com, reject
-HOST-SUFFIX,rescn.u3.ucweb.com, reject
-HOST, feedback.uc.cn, reject
-HOST, gj.applog.uc.cn, reject
-HOST, gj.track.uc.cn, reject
-HOST, gjapplog.uc.cn, reject
-HOST, gjtrack.uc.cn, reject
-HOST, holmeshelptest.uc.cn, reject
-HOST-SUFFIX, ads.uc.cn, reject
-HOST-SUFFIX, adslot.uc.cn, reject
-HOST-SUFFIX, alissl.ucdl.pp.uc.cn, reject
-HOST-SUFFIX, api.mp.uc.cn, reject
-HOST-SUFFIX, api.open.uc.cn, reject
-HOST-SUFFIX, applog.uc.cn, reject
-HOST-SUFFIX, applogios.uc.cn, reject
-HOST-SUFFIX, bench.uc.cn, reject
-HOST-SUFFIX, client.tv.uc.cn, reject
-HOST-SUFFIX, coral-task.uc.cn, reject
-HOST-SUFFIX, dispatcher.upmc.uc.cn, reject
-HOST-SUFFIX, hcadv.video.ums.uc.cn, reject
-HOST-SUFFIX, hao.uc.cn, reject
-HOST-SUFFIX, lobmuc.cn, reject
-HOST-SUFFIX, open-uc.cn, reject
-HOST-SUFFIX, puds.test.uae.uc.cn, reject
-HOST-SUFFIX, t.uc.cn, reject
-HOST-SUFFIX, track.uc.cn, reject
-HOST-SUFFIX, wmedia-track.uc.cn, reject
-HOST-SUFFIX, woodpecker.uc.cn, reject
-host, gecko-pangle-lf.snssdk.com, reject
-host, mercury-sdk.snssdk.com, reject
-host, tbm.snssdk.com, reject
-host, toblog.ctobsnssdk.com, reject
-host, tnc3-aliec2.snssdk.com, reject
-host, sf3-fe-tos.pglstatp-toutiao.com, reject
 # > 交管12123
 host, static.122.gov.cn, reject
 ip-cidr, 203.107.1.1/24, reject
@@ -456,24 +334,10 @@ HOST-SUFFIX,afd.l.google.com, reject
 HOST-SUFFIX,www.googleadservices.com, reject
 HOST-SUFFIX,www.google-analytics.com, reject
 HOST,ads.youtube.com, reject
-# > 湖南卫视
-HOST-SUFFIX,da.mgtv.com, reject
-HOST-SUFFIX,da.hunantv.com, reject
-HOST-SUFFIX,log.hunantv.com, reject
-HOST-SUFFIX,v2.hunantv.com, reject
 # > 虎扑
 HOST,adx.hupu.com, reject
 HOST,adx-api.hupu.com, reject
 HOST,goblin.hupu.com, reject
-# > 金山词霸
-HOST,ad-stat.ksosoft.com, reject
-HOST,img.auction-ads.wpscdn.cn, reject
-HOST,counter.kingsoft.com, reject
-HOST,counter.ksosoft.com, reject
-HOST,minfo.wps.cn, reject
-HOST,mobad.ijinshan.com, reject
-HOST,ups.ksmobile.net, reject
-HOST,ws.ksmobile.net, reject
 # > 乐视
 HOST-SUFFIX,webp2p.letv.com, reject
 HOST,ark.letv.com, reject
@@ -484,7 +348,6 @@ HOST,n.mark.letv.com, reject
 HOST,a.wkanx.com, reject
 HOST,cwx.lianwangtech.com, reject
 HOST,c1wx.lianwangtech.com, reject
-# (M)
 # > 微软
 HOST-SUFFIX,ads.msn.com, reject
 HOST-SUFFIX,ads1.msn.com, reject
@@ -612,19 +475,6 @@ HOST,kgmobilestatbak.kugou.com, reject
 HOST,mobilelog.kugou.com, reject
 HOST,mobilead.kuwo.cn, reject
 HOST,rich.kuwo.cn, reject
-# > 迅雷
-HOST,adsp.xunlei.com, reject
-HOST,etl.xlmc.sandai.net, reject
-# > vivo
-HOST,adlog.vivo.com.cn, reject
-HOST,adreq.vivo.com.cn, reject
-HOST,ads-marketing-vivofs.vivo.com.cn, reject
-HOST,adsdk.vivo.com.cn, reject
-HOST,adsstatic.vivo.com.cn, reject
-HOST,adxlog.vivo.com.cn, reject
-HOST,vcardsdkservice.vivo.com.cn, reject
-HOST-KEYWORD,stsdk.vivo.com.cn, reject
-HOST-KEYWORD,stsdk.vivoglobal.com, reject
 # > 微博
 HOST-KEYWORD,fastimage.uve.weibo.com, reject
 HOST-KEYWORD,adimg.uve.weibo.com, reject
