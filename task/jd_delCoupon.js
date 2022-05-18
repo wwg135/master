@@ -1,9 +1,9 @@
-/*
-by lxk0301 20210121
-11 0 * * 1 https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Script/Files/JD/jd_delCoupon.js, tag=删除优惠券, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd.png, enabled=true
+#名称：删除京东优惠券
+#作者：wwg135
+#更新时间:2022-05-18   18:40
 
 删除优惠券名称中不含“京东”、“超市”、“生鲜”关键字的券；
-删除优惠券名称中含“XX旗舰店”的券；
+删除优惠券名称中含“XX旗舰店”、“仅可购买”的券；
 已删除的券可以在回收站中还原
 
 活动入口：京东APP我的-优惠券
@@ -163,8 +163,8 @@ function isJDCoupon(title) {
     return true
   else if (title.indexOf('话费') > -1)
     return true
-  else if (title.indexOf('小鸽有礼') > -1)
-    return true
+  else if (title.indexOf('仅可购买') > -1)
+    return false
   else if (title.indexOf('旗舰店') > -1)
     return false
   else if (title.indexOf('生鲜') > -1)
