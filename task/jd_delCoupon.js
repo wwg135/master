@@ -2,7 +2,7 @@
 by lxk0301 20210121
 11 0 * * 1 https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Script/Files/JD/jd_delCoupon.js, tag=删除优惠券, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd.png, enabled=true
 
-删除优惠券名称中不含“运费”、“超市”、“生鲜”关键字的券；
+删除优惠券名称中不含“运费”、“超市”、“全品类”关键字的券；
 删除优惠券名称中含“仅可购买”的券；
 已删除的券可以在回收站中还原
 
@@ -129,7 +129,7 @@ function getCoupon() {
               await delCoupon(couponId, couponTitle)
             }
           } else if (states[s] === '1') {
-            // 删除可使用且非超市、生鲜、京贴
+            // 删除可使用且非超市、全品类、京贴
             let useable = data.coupon.useable
             for (let i = 0; i < useable.length; i++) {
               couponTitle = useable[i].limitStr
@@ -167,7 +167,7 @@ function isJDCoupon(title) {
     return true
   else if (title.indexOf('仅可购买') > -1)
     return false
-  else if (title.indexOf('生鲜') > -1)
+  else if (title.indexOf('全品类') > -1)
     return true
   else
     return false
