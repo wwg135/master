@@ -166,7 +166,7 @@ function isJDCoupon(title) {
   else if (title.indexOf('小鸽有礼') > -1)
     return true
   else if (title.indexOf('仅可购买') > -1)
-    return false
+    return true
   else if (title.indexOf('生鲜') > -1)
     return true
   else
