@@ -771,8 +771,6 @@ IP-CIDR,180.166.52.24/32, reject
 IP-CIDR,211.161.101.106/32, reject
 IP-CIDR,220.115.251.25/32, reject
 IP-CIDR,222.73.156.235/32, reject
-#知乎
-IP-CIDR,188.89.204.198/32, reject
 # 运营商劫持
 HOST-SUFFIX,189key.com, reject
 HOST-SUFFIX,bkyhq.cn, reject
@@ -789,22 +787,6 @@ HOST-SUFFIX,wsgblw.com, reject
 HOST-SUFFIX,xchmai.com, reject
 HOST-SUFFIX,ygyzx.cn, reject
 HOST-SUFFIX,zmlled.cn, reject
-# > C&J Marketing
-# https://www.zhihu.com/question/46746200, reject
-HOST-SUFFIX,alienskins.cn, reject
-HOST-SUFFIX,anydeskchina.cn, reject
-HOST-SUFFIX,betterzipcn.com, reject
-HOST-SUFFIX,dongmansoft.com, reject
-HOST-SUFFIX,earmasterchina.cn, reject
-HOST-SUFFIX,folxchina.cn, reject
-HOST-SUFFIX,hypeapp.cn, reject
-HOST-SUFFIX,idmchina.net, reject
-HOST-SUFFIX,imazingchina.com, reject
-HOST-SUFFIX,luping.net.cn, reject
-HOST-SUFFIX,mindmanager.cn, reject
-HOST-SUFFIX,officesoftcn.com, reject
-HOST-SUFFIX,photozoomchina.com, reject
-HOST-SUFFIX,xitongqingli.com, reject
 # 隐私保护
 HOST-SUFFIX,airpr.com, reject
 HOST-SUFFIX,hotjar.com, reject
