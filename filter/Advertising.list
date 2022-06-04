@@ -74,7 +74,7 @@ HOST-SUFFIX,page.amap.com,REJECT
 HOST,optimus-ads.amap.com, reject
 HOST,optimus-ads.amap.com.w.alikunlun.com, reject
 HOST-SUFFIX, shouji.sougou.com, reject
-HOST, u51.me, reject
+HOST,u51.me, reject
 HOST-SUFFIX, u51.me, reject
 # > 美团
 HOST, flowplus.meituan.net, reject
@@ -342,13 +342,6 @@ HOST,ark.letv.com, reject
 HOST,emma-414870e223.huodonghezi.com, reject
 HOST,g3.letv.com, reject
 HOST,n.mark.letv.com, reject
-# > 微软
-HOST-SUFFIX,ads.msn.com, reject
-HOST-SUFFIX,ads1.msn.com, reject
-HOST-SUFFIX,ads2.msn.com, reject
-HOST-SUFFIX,bingads.microsoft.com, reject
-HOST-SUFFIX,rads.msn.com, reject
-HOST,mobileads.msn.com, reject
 # > 咪咕视频
 HOST-SUFFIX,ad.cmvideo.cn, reject
 HOST,ggc.cmvideo.cn, reject
