@@ -33,11 +33,11 @@ var LogDetails = false; // 响应日志
 
 var pushMsg = [];
 
-var P00001 = '786Jhz3bNlWwlWfnKtYLwZSu7kWYGS73Odrn9pqlHaBFvdRm3XsGxByxCYGYm20fFjzT05';
+var P00001 = '';
 
-var P00003 = '1036717231';
+var P00003 = '';
 
-var dfp = 'a0ef9f48d608db45cf800f294a1083a3aae0f891227a18f3ccee6feb7e52fa07ff@1655348955204@1654052956204';
+var dfp = '';
 
 var $nobyda = nobyda();
 
