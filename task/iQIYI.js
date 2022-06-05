@@ -9,7 +9,7 @@ Safari浏览器打开 https://m.iqiyi.com/user.html 使用密码登录, 如通�
 脚本将在每天上午9:00执行, 您可以修改执行时间。
 */
 
-var cookie = ''; //单引号内填入手动获取的Cookie
+var cookie = 'P00002=%7B%22uid%22%3A%221036717231%22%2C%22pru%22%3A1036717231%2C%22user_name%22%3A%22135****2878%22%2C%22nickname%22%3A%22J%5Cu6325%5Cu4e0d%5Cu6389%5Cu7684%5Cu660e%5Cu5929%22%2C%22pnickname%22%3A%22J%5Cu6325%5Cu4e0d%5Cu6389%5Cu7684%5Cu660e%5Cu5929%22%2C%22type%22%3A11%2C%22email%22%3A%22135**%40q**.com%22%7D; QC008=fe163f98e7c1c417cd813caf0ed961db; __dfp=e02f7e70a994714ec4b3de2af2f6bd7d0ee38565fb255a95505af18b36d186a30d@1655686899833@1654390900833; QC007=https://baidu.com/; QCH001=0; H_RENEW_COUNT=1654390925391; P00001=62AVsOT184B4tBC9MqfNeorEFlXF2WiiRPeQ0m3PWVCdWGapJ90QUE85FpQwRoAPtNM0f; P00003=1036717231; P00007=62AVsOT184B4tBC9MqfNeorEFlXF2WiiRPeQ0m3PWVCdWGapJ90QUE85FpQwRoAPtNM0f; P00010=1036717231; P00PRU=1036717231; P01010=1654444800; P00004=.1654390905.01afc956b0; __uuid=51580879-1064-34c1-09fd-6da23d341c4f; QC006=348027450ade1de2478593d60bf868a5; H5_AB=0; '; //单引号内填入手动获取的Cookie
 
 var barkKey = ''; //Bark APP 通知推送Key
 
