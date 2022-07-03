@@ -60,17 +60,17 @@ HOST-SUFFIX,beacon.qq.com, reject
 HOST-SUFFIX,v.gdt.qq.com, reject
 # > 小米
 HOST,data.mistat.xiaomi.com, reject
-HOST,tracking.intl.miui.com, reject
+HOST,tracking.intl.miui.com
 # > 高德
-HOST-SUFFIX,adiu.amap.com,REJECT
-HOST,aboard.apilocate.amap.com,REJECT
-HOST,apiinit.amap.com,REJECT
-HOST,icloud-amap.com,REJECT
-HOST,logs.amap.com,REJECT
-HOST-SUFFIX,dualstack-logs.amap.com,REJECT
-HOST-SUFFIX,logs.amap.com,REJECT
-HOST-SUFFIX,optimus-ads.amap.com,REJECT
-HOST-SUFFIX,page.amap.com,REJECT
+HOST-SUFFIX,adiu.amap.com, reject
+HOST,aboard.apilocate.amap.com, reject
+HOST,apiinit.amap.com, reject
+HOST,icloud-amap.com, reject
+HOST,logs.amap.com, reject
+HOST-SUFFIX,dualstack-logs.amap.com, reject
+HOST-SUFFIX,logs.amap.com, reject
+HOST-SUFFIX,optimus-ads.amap.com, reject
+HOST-SUFFIX,page.amap.com, reject
 HOST,optimus-ads.amap.com, reject
 HOST,optimus-ads.amap.com.w.alikunlun.com, reject
 HOST-SUFFIX, shouji.sougou.com, reject
