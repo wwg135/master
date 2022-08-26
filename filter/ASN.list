@@ -1,4 +1,7 @@
 # 🌐 ASN for Mainland China
+# write: wwg135
+# update: 2022.08.27 07:43
+
 host,vv.video.qq.com,DIRECT
 host-suffix,weixin.qq.com,DIRECT
 IP-ASN,4134 // 金融街31号
