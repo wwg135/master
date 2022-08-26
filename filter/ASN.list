@@ -1,5 +1,5 @@
 # 🌐 ASN for Mainland China
-DOMAIN,vv.video.qq.com,DIRECT
+host,vv.video.qq.com,DIRECT
 IP-ASN,4134 // 金融街31号
 IP-ASN,4538 // 中国教育科研网络中心
 IP-ASN,4611 // CNNIC会员
