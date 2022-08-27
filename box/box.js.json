@@ -1,10 +1,68 @@
 {
-  "id": "wwg135.app.sub",
-  "name": "wwg135 应用订阅",
+  "id": "wwg135",
+  "name": "wwg135应用订阅",
   "author": "wwg135",
-  "icon": "https://avatars2.githubusercontent.com/u/21050064?s=460&u=40a74913dd0a3d00670d05148c3a08c787470021&v=4",
-  "repo": "https://github.com/wwg135/master",
+  "icon": "https://raw.githubusercontent.com/smartmimi/conf/master/boxjs/moi.jpg",
+  "repo": "https://github.com/wwg135/Surge/tree/main/boxjs",
   "apps": [
+    {
+    "id": "签到",
+    "name": "京东",
+    "keys": ["CookiesJD"],
+    "descs_html": [
+      "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js\">脚本注释</a></h4>",
+      "<h4 align=\"center\">如需修改Cookie列表请严格按照<a href=\"https://www.bejson.com/json/format\">JSON格式</a>修改</h4>",
+      "<h4 align=\"center\">建议通过脚本获取Cookie</h4>",
+      "<br />",
+      "<h3 align=\"center\">签到相关教程</h3>",
+      "<p align=\"center\"><iframe src=\"https://www.youtube.com/embed/6vMz1LKF1-8\" width=\"100%\" height=\"100%\"></iframe></p>"
+    ],
+    "settings": [{
+      "id": "JD_DailyBonusLog",
+      "name": "详细响应日志",
+      "val": false,
+      "type": "boolean",
+      "desc": "打印原始签到结果, 用于调试脚本, 一般用户建议关闭."
+    }, {
+      "id": "JD_Crash_disable",
+      "name": "崩溃自动禁用",
+      "val": true,
+      "type": "boolean",
+      "desc": "脚本运行崩溃时(如VPN断连), 下次运行时将自动禁用相关崩溃接口(仅部分接口启用), 注: 崩溃时可能会误禁用正常接口."
+    }, {
+      "id": "JD_Retry_disable",
+      "name": "签到接口增强",
+      "val": true,
+      "type": "boolean",
+      "desc": "用于部分接口提示\"不含活动数据\"问题, 开启后会进行二次查询, 注: 可能会导致崩溃(小概率)."
+    }, {
+      "id": "JD_Follow_disable",
+      "name": "自动关注店铺",
+      "val": true,
+      "type": "boolean",
+      "desc": "部分接口签到过程可能需要关注店铺, 如介意可选择关闭."
+    }, {
+      "id": "CookiesJD",
+      "name": "Cookie列表",
+      "val": "",
+      "type": "textarea",
+      "autoGrow": false,
+      "rows": 9,
+      "val": "[\n  {\n    \"cookie\": \"此处填写账号1 Cookie\"\n  },\n  {\n    \"cookie\": \"此处填写账号2 Cookie\",\n    \"jrBody\": \"此处填写账号2 钢镚Body\"\n  }\n]",
+      "placeholder": "[ {\"cookie\": \"pt_key=xxx;pt_pin=yyy;\", \"jrBody\": \"reqData=zzz\"}  ]",
+      "desc": "Cookie和钢镚签到Body列表, 如需修改请严格按照JSON格式填写; \"cookie\"为必须, 其他为可选."
+    }],
+    "scripts": [{
+      "name": "京东签到",
+      "script": "https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js"
+    }, {
+      "name": "初始化设置",
+      "script": "https://gist.githubusercontent.com/NobyDa/91cbe57dd50b3588a975af8922507a72/raw/JD_initial.js"
+    }],
+    "author": "@NobyDa",
+    "repo": "https://github.com/NobyDa/Script/tree/master/JD-DailyBonus",
+    "icons": ["https://raw.githubusercontent.com/NobyDa/mini/master/Alpha/jd.png", "https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png"]
+  },
     {
       "id": "Caiyun",
       "name": "彩云天气",
@@ -63,6 +121,51 @@
         "https://raw.githubusercontent.com/Orz-3/task/master/caiyun.png"
       ],
       "script": "https://raw.githubusercontent.com/wwg135/master/Quantumult-X/task/caiyun.js"
+    },
+    {
+      "id": "videoqq",
+      "name": "腾讯视频",
+      "keys": [
+        "chavy_cookie_videoqq",
+        "chavy_auth_url_videoqq",
+        "chavy_auth_header_videoqq",
+        "chavy_msign_url_videoqq",
+        "chavy_msign_header_videoqq"
+      ],
+      "author": "@chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/videoqq",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/videoqq.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/videoqq.png"
+      ]
+    },
+    {
+      "id": "jx_tokens",
+      "name": "京喜tokens",
+      "keys": ["jx_tokens"],
+      "descs_html": [
+        "请勿随意在输入框修改内容，建议通过脚本去获取Token，若要修改，请按照 JSON 数组格式修改。",
+        "脚本地址【<a href=\"https://github.com/whyour/hundun/blob/master/quanx/jx_tokens.js\">京喜多账号Token获取</a>】,并按照此脚本注释进行配置"
+      ],
+      "settings": [
+        {
+          "id": "jx_tokens",
+          "name": "Tokens",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "Tokens 列表 (JSON 数组格式)"
+        }
+      ],
+      "author": "@whyour",
+      "repo": "https://github.com/wwg135/Surge/blob/main/JS/jx_tokens.js",
+      "script": "https://raw.githubusercontent.com/wwg135/Surge/main/JS/jx_tokens.js",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/jx_sign_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/jx_sign.png"
+      ]
     }
   ]
 }
