@@ -3,7 +3,6 @@
 ## 更新时间：2022.08.26 23:09
 
 # > 搜狗
-host, indivi-cdn.shouji.sogou.com/wapdl/hole, reject
 HOST-SUFFIX,epro.sogou.com, reject
 HOST-SUFFIX,golden1.sogou.com, reject
 HOST-SUFFIX,inte.sogou.com, reject
