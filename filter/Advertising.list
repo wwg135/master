@@ -1,6 +1,6 @@
-## APP开屏广告拦截，APP启动广告拦截→→→→→→→精简版
-## wwg135  
-## 更新时间：2022.08.26 23:09
+## 广告拦截→→→精简版
+## write: wwg135  
+## update：2022.08.27 11:12
 
 # > 搜狗
 HOST-SUFFIX,epro.sogou.com, reject
