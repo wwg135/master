@@ -2,6 +2,32 @@
 ## write: wwg135  
 ## update：2022.08.27 11:12
 
+# >  腾讯
+HOST,safebrowsing.urlsec.qq.com, reject
+HOST-SUFFIX,oth.str.mdt.qq.com, reject
+HOST-SUFFIX,l.qq.com, reject
+HOST,adsmind.apdcdn.tc.qq.com, reject
+HOST,adsmind.tc.qq.com, reject
+HOST,adsmind.ugdtimg.com, reject
+HOST,livep.l.t002.ottcn.com, reject
+HOST,pgdt.ugdtimg.com, reject
+HOST,splashqqlive.gtimg.com, reject
+HOST,wa.gtimg.com, reject
+HOST,wxsnsdy.wxs.qq.com, reject
+HOST,wxsnsdythumb.wxs.qq.com, reject
+# >爱奇艺
+HOST,t7z.cupid.iqiyi.com, reject
+HOST,t7z.cupid.ptqy.gitv.tv, reject
+IP-CIDR,203.107.63.154/32, reject
+IP-CIDR,101.227.97.240/32, reject
+IP-CIDR,101.227.200.11/32, reject
+IP-CIDR,101.227.200.28/32, reject
+IP-CIDR,124.192.153.42/32, reject
+# > 优酷
+HOST-SUFFIX,atm.youku.com, reject
+HOST,ad.mobile.youku.com, reject
+HOST,iyes.youku.com, reject
+HOST,pl.cp31.ott.cibntv.net, reject
 # > 搜狗
 HOST-SUFFIX,epro.sogou.com, reject
 HOST-SUFFIX,golden1.sogou.com, reject
@@ -46,11 +72,6 @@ HOST-SUFFIX,iadsdk.apple.com, reject
 HOST-SUFFIX,ads.internal.unity3d.com, reject
 HOST-SUFFIX,ads.prd.ie.internal.unity3d.com, reject
 HOST-SUFFIX,unityads.unity3d.com, reject
-# > 优酷
-HOST-SUFFIX,atm.youku.com, reject
-HOST,ad.mobile.youku.com, reject
-HOST,iyes.youku.com, reject
-HOST,pl.cp31.ott.cibntv.net, reject
 # > 百度
 HOST-SUFFIX,duapps.com, reject
 HOST-SUFFIX,cpro.baidu.com, reject
@@ -87,14 +108,6 @@ HOST-SUFFIX,bdplus.baidu.com, reject
 HOST-SUFFIX,cbjs.baidu.com, reject
 HOST-SUFFIX,cpro2.baidu.com, reject
 HOST-SUFFIX,cpu-admin.baidu.com, reject
-# >爱奇艺
-HOST,t7z.cupid.iqiyi.com, reject
-HOST,t7z.cupid.ptqy.gitv.tv, reject
-IP-CIDR,203.107.63.154/32, reject
-IP-CIDR,101.227.97.240/32, reject
-IP-CIDR,101.227.200.11/32, reject
-IP-CIDR,101.227.200.28/32, reject
-IP-CIDR,124.192.153.42/32, reject
 # > 今日头条
 HOST-keyword, ad.toutiao.com, reject
 HOST-keyword, clk.gentags.net, reject
@@ -116,19 +129,6 @@ HOST-keyword, s3.pstatp.com, reject
 HOST-keyword, a3.pstatp.com, reject
 HOST-keyword, a3.bytecdn.cn, reject
 HOST-keyword, ichannel.snssdk.com, reject
-# >  腾讯
-HOST,safebrowsing.urlsec.qq.com, reject
-HOST-SUFFIX,oth.str.mdt.qq.com, reject
-HOST-SUFFIX,l.qq.com, reject
-HOST,adsmind.apdcdn.tc.qq.com, reject
-HOST,adsmind.tc.qq.com, reject
-HOST,adsmind.ugdtimg.com, reject
-HOST,livep.l.t002.ottcn.com, reject
-HOST,pgdt.ugdtimg.com, reject
-HOST,splashqqlive.gtimg.com, reject
-HOST,wa.gtimg.com, reject
-HOST,wxsnsdy.wxs.qq.com, reject
-HOST,wxsnsdythumb.wxs.qq.com, reject
 # > 淘宝
 HOST-SUFFIX,apoll.m.taobao.com, reject
 HOST-SUFFIX,h-adashx.ut.taobao.com, reject
