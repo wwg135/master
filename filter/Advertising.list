@@ -15,7 +15,7 @@ HOST,splashqqlive.gtimg.com, reject
 HOST,wa.gtimg.com, reject
 HOST,wxsnsdy.wxs.qq.com, reject
 HOST,wxsnsdythumb.wxs.qq.com, reject
-# >爱奇艺
+# > 爱奇艺
 HOST,t7z.cupid.iqiyi.com, reject
 HOST,t7z.cupid.ptqy.gitv.tv, reject
 IP-CIDR,203.107.63.154/32, reject
