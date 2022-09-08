@@ -87,40 +87,6 @@ HOST-SUFFIX,val.api.youku.com, reject
 HOST-SUFFIX,wan.youku.com, reject
 HOST-SUFFIX,ykatr.youku.com, reject
 HOST-SUFFIX,ykrec.youku.com, reject
-# > 搜狗
-HOST-SUFFIX,epro.sogou.com, reject
-HOST-SUFFIX,golden1.sogou.com, reject
-HOST-SUFFIX,inte.sogou.com, reject
-HOST-SUFFIX,inte.sogoucdn.com, reject
-HOST-SUFFIX,lu.sogoucdn.com, reject
-HOST-SUFFIX,theta.sogoucdn.com, reject
-HOST-SUFFIX,uranus.sogou.com, reject
-HOST-SUFFIX,123.sogou.com, reject
-HOST-SUFFIX,a1click.cpc.sogou.com, reject
-HOST-SUFFIX,adsence.sogou.com, reject
-HOST-SUFFIX,adstream.123.sogoucdn.com, reject
-HOST-SUFFIX,amfi.gou.sogou.com, reject
-HOST-SUFFIX,art.theta.sogoucdn.com, reject
-HOST-SUFFIX,athena.wan.sogou.com, reject
-HOST-SUFFIX,bazinga.mse.sogou.com, reject
-HOST-SUFFIX,bite.theta.sogoucdn.com, reject
-HOST-SUFFIX,brand.sogou.com, reject
-HOST-SUFFIX,bsiet.husky.sogou.com, reject
-# > 高德
-HOST-SUFFIX,adiu.amap.com, reject
-HOST,aboard.apilocate.amap.com, reject
-HOST,apiinit.amap.com, reject
-HOST,icloud-amap.com, reject
-HOST,logs.amap.com, reject
-HOST-SUFFIX,dualstack-logs.amap.com, reject
-HOST-SUFFIX,logs.amap.com, reject
-HOST-SUFFIX,optimus-ads.amap.com, reject
-HOST-SUFFIX,page.amap.com, reject
-HOST,optimus-ads.amap.com, reject
-HOST,optimus-ads.amap.com.w.alikunlun.com, reject
-HOST-SUFFIX, shouji.sougou.com, reject
-HOST,u51.me, reject
-HOST-SUFFIX, u51.me, reject
 # > 屏蔽苹果系统更新
 HOST, ns.itunes.apple.com, reject
 HOST, appldnld.apple.com, reject
@@ -131,42 +97,6 @@ HOST-SUFFIX,iadsdk.apple.com, reject
 HOST-SUFFIX,ads.internal.unity3d.com, reject
 HOST-SUFFIX,ads.prd.ie.internal.unity3d.com, reject
 HOST-SUFFIX,unityads.unity3d.com, reject
-# > 百度
-HOST-SUFFIX,duapps.com, reject
-HOST-SUFFIX,cpro.baidu.com, reject
-HOST-SUFFIX,pos.baidu.com, reject
-HOST,afd.baidu.com, reject
-HOST,als.baidu.com, reject
-HOST,duclick.baidu.com, reject
-HOST,mobads.baidu.com, reject
-HOST,mobads-logs.baidu.com, reject
-HOST,nadvideo2.baidu.com, reject
-HOST,nsclick.baidu.com, reject
-HOST-SUFFIX,bce.baidu.com, reject
-HOST-SUFFIX,bar.baidu.com, reject
-HOST-SUFFIX,baiduyubaidu.com, reject
-HOST-SUFFIX,baidutv.baidu.com, reject
-HOST-SUFFIX,baichuan.baidu.com, reject
-HOST-SUFFIX,appc.baidu.com, reject
-HOST-SUFFIX,anquan.baidu.com, reject
-HOST-SUFFIX,adscdn.baidu.com, reject
-HOST-SUFFIX,adm.baidu.com, reject
-HOST-SUFFIX,ad.player.baidu.com, reject
-HOST-SUFFIX,a.baidu.com, reject
-HOST-SUFFIX,antivirus.baidu.com, reject
-HOST-SUFFIX,baifen.music.baidu.com, reject
-HOST-SUFFIX,banlv.baidu.com, reject
-HOST-SUFFIX,cm.baidu.com, reject
-HOST-SUFFIX,cpro.zhidao.baidu.com, reject
-HOST-SUFFIX,cleaner.baidu.com, reject
-HOST-SUFFIX,cjhq.baidu.com, reject
-HOST-SUFFIX,cb.baidu.com, reject
-HOST-SUFFIX,c.baidu.com, reject
-HOST-SUFFIX,btlaunch.baidu.com, reject
-HOST-SUFFIX,bdplus.baidu.com, reject
-HOST-SUFFIX,cbjs.baidu.com, reject
-HOST-SUFFIX,cpro2.baidu.com, reject
-HOST-SUFFIX,cpu-admin.baidu.com, reject
 # > 今日头条
 HOST-keyword, ad.toutiao.com, reject
 HOST-keyword, clk.gentags.net, reject
