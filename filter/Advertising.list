@@ -1,6 +1,6 @@
 ## 广告拦截→→→精简版
 ## write: wwg135  
-## update：2022.09.08 14:33
+## update：2022.09.13 14:33
 
 # >  腾讯视频
 HOST, h.trace.qq.com, reject
@@ -87,16 +87,6 @@ HOST-SUFFIX,val.api.youku.com, reject
 HOST-SUFFIX,wan.youku.com, reject
 HOST-SUFFIX,ykatr.youku.com, reject
 HOST-SUFFIX,ykrec.youku.com, reject
-# > 屏蔽苹果系统更新
-HOST, ns.itunes.apple.com, reject
-HOST, appldnld.apple.com, reject
-HOST, mesu.apple.com, reject
-HOST, xp.apple.com, reject
-HOST, gdmf.apple.com, reject
-HOST-SUFFIX,iadsdk.apple.com, reject
-HOST-SUFFIX,ads.internal.unity3d.com, reject
-HOST-SUFFIX,ads.prd.ie.internal.unity3d.com, reject
-HOST-SUFFIX,unityads.unity3d.com, reject
 # > 今日头条
 HOST-keyword, ad.toutiao.com, reject
 HOST-keyword, clk.gentags.net, reject
