@@ -1,4 +1,7 @@
-[Rule]
+# Apple_block_update
+# writer: wwg135
+# update: 2022.09.22 16：08
+
 # > Apple
 HOST,ns.itunes.apple.com
 HOST,appldnld.apple.com
