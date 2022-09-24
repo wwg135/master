@@ -19,6 +19,7 @@ HOST-KEYWORD, api.smoot.apple.cn
 HOST, init.ess.apple.com
 # > 苹果其他服务
 HOST, smp-device-content.apple.com
+HOST-SUFFIX, apple.com
 HOST-KEYWORD, ssl.apple.com
 HOST-KEYWORD, humb.apple.com
 HOST-KEYWORD, api-adservices.apple.com
