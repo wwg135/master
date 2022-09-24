@@ -20,6 +20,7 @@ HOST, init.ess.apple.com
 # > 苹果其他服务
 HOST, smp-device-content.apple.com
 HOST-SUFFIX, apple.com
+HOST-SUFFIX, apps.apple.com
 HOST-KEYWORD, ssl.apple.com
 HOST-KEYWORD, humb.apple.com
 HOST-KEYWORD, api-adservices.apple.com
@@ -31,3 +32,4 @@ HOST, vv.video.qq.com
 HOST-SUFFIX, weixin.qq.com
 HOST-SUFFIX, wechat.qq.com
 HOST-SUFFIX, servicewechat.com
+HOST-SUFFIX, weixin.qq.com.cn
