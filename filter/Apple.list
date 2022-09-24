@@ -26,6 +26,7 @@ HOST-KEYWORD, api-adservices.apple.com
 HOST-KEYWORD, ls.apple.com
 HOST-KEYWORD, gsa.apple.com
 HOST-KEYWORD, ess.apple.com
+USER-AGENT,com.apple.appstored* // iOS App Store
 # > 腾讯
 HOST, vv.video.qq.com
 HOST-SUFFIX, weixin.qq.com
