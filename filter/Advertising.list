@@ -1,6 +1,6 @@
 ## 广告拦截→→→精简版
 ## write: wwg135  
-## update：2022.09.13 14:33
+## update：2022.09.24 13:35
 
 # >  腾讯视频
 HOST, h.trace.qq.com, reject
@@ -142,64 +142,3 @@ HOST-SUFFIX,click.tz.simba.taobao.com, reject
 HOST-SUFFIX,stat.simba.taobao.com, reject
 HOST-SUFFIX,m-adash.m.taobao.com, reject
 HOST-SUFFIX,adashbc.m.taobao.com, reject
-
-# 运营商劫持
-HOST-SUFFIX,189key.com, reject
-HOST-SUFFIX,bkyhq.cn, reject
-HOST-SUFFIX,gscxs.cn, reject
-HOST-SUFFIX,hbssjd.cn, reject
-HOST-SUFFIX,hyunke.com, reject
-HOST-SUFFIX,jsncke.com, reject
-HOST-SUFFIX,junkucm.com, reject
-HOST-SUFFIX,lvehaisen.com, reject
-HOST-SUFFIX,tt114.net, reject
-HOST-SUFFIX,urlaw.cn, reject
-HOST-SUFFIX,urlet.cn, reject
-HOST-SUFFIX,wsgblw.com, reject
-HOST-SUFFIX,xchmai.com, reject
-HOST-SUFFIX,ygyzx.cn, reject
-HOST-SUFFIX,zmlled.cn, reject
-# 隐私保护
-HOST-SUFFIX,airpr.com, reject
-HOST-SUFFIX,hotjar.com, reject
-HOST-SUFFIX,hotjar.io, reject
-HOST-SUFFIX,hs-analytics.net, reject
-HOST-SUFFIX,kissmetrics.com, reject
-HOST-SUFFIX,liadm.com, reject
-HOST-SUFFIX,mparticle.com, reject
-HOST-SUFFIX,nexac.com, reject
-HOST-SUFFIX,nr-data.net, reject
-HOST-SUFFIX,pardot.com, reject
-HOST-SUFFIX,parrable.com, reject
-HOST-SUFFIX,petametrics.com, reject
-HOST-SUFFIX,predic.io, reject
-HOST-SUFFIX,seewhy.com, reject
-HOST-SUFFIX,segment.io, reject
-HOST-SUFFIX,segmentify.com, reject
-HOST-SUFFIX,sentiance.com, reject
-HOST-SUFFIX,serverbid.com, reject
-HOST-SUFFIX,sessionm.com, reject
-HOST-SUFFIX,smartlook.com, reject
-HOST-SUFFIX,socdm.com, reject
-HOST-SUFFIX,socialannex.com, reject
-HOST-SUFFIX,socialbakers.com, reject
-HOST-SUFFIX,sociaplus.com, reject
-HOST-SUFFIX,stathat.com, reject
-HOST-SUFFIX,stats-locations.com, reject
-HOST-SUFFIX,tagcommander.com, reject
-HOST-SUFFIX,tailtarget.com, reject
-HOST-SUFFIX,tapad.com, reject
-HOST-SUFFIX,tapfiliate.com, reject
-HOST-SUFFIX,tapinfluence.com, reject
-HOST-SUFFIX,tapstream.com, reject
-HOST-SUFFIX,tend.io, reject
-HOST-SUFFIX,trackingio.com, reject
-HOST-SUFFIX,woopra.com, reject
-HOST-SUFFIX,wootric.com, reject
-HOST-SUFFIX,wowanalytics.co.uk, reject
-HOST-SUFFIX,zoomanalytics.co, reject
-HOST-SUFFIX,ads.linkedin.com, reject
-HOST,analytics.slashdotmedia.com, reject
-HOST,zgsdk.zhugeio.com, reject
-HOST,track.58.com, reject
-HOST,tracklog.58.com, reject
