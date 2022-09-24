@@ -12,6 +12,7 @@ HOST-KEYWORD, weather-adge.apple.com
 HOST-KEYWORD, buy.itunes.apple.com
 # > 苹果icloud
 HOST-KEYWORD, icloud.com
+HOST-SUFFIX,icloud-content.com
 # > 苹果输入法相关服务
 HOST-KEYWORD, api.smoot.apple.com
 HOST-KEYWORD, api.smoot.apple.cn
