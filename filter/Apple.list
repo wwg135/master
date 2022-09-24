@@ -1,6 +1,6 @@
 # >  Apple服务
 # >  writer: wwg135
-# >  update: 2022.09.24 15:16
+# >  update: 2022.09.24 15:43
 
 # > 苹果推送服务
 HOST-KEYWORD, push.apple.com
@@ -19,7 +19,6 @@ HOST-KEYWORD, api.smoot.apple.cn
 HOST, init.ess.apple.com
 # > 苹果其他服务
 HOST, smp-device-content.apple.com
-HOST-SUFFIX, apple.com
 HOST-SUFFIX, apps.apple.com
 HOST-KEYWORD, ssl.apple.com
 HOST-KEYWORD, humb.apple.com
@@ -32,4 +31,3 @@ HOST, vv.video.qq.com
 HOST-SUFFIX, weixin.qq.com
 HOST-SUFFIX, wechat.qq.com
 HOST-SUFFIX, servicewechat.com
-HOST-SUFFIX, weixin.qq.com.cn
