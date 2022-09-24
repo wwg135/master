@@ -29,3 +29,4 @@ HOST-KEYWORD, ess.apple.com
 # > 腾讯
 HOST, vv.video.qq.com
 HOST-SUFFIX, weixin.qq.com
+HOST-SUFFIX, wechat.qq.com
