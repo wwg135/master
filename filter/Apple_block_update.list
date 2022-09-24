@@ -1,6 +1,6 @@
 # Apple_block_update
 # writer: wwg135
-# update: 2022.09.22 16：08
+# update: 2022.09.24 13:39
 
 # > Apple
 HOST,ns.itunes.apple.com
@@ -12,3 +12,4 @@ HOST-SUFFIX,iadsdk.apple.com
 HOST-SUFFIX,ads.internal.unity3d.com
 HOST-SUFFIX,ads.prd.ie.internal.unity3d.com
 HOST-SUFFIX,unityads.unity3d.com
+# end
