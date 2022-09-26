@@ -27,7 +27,7 @@ HOST-KEYWORD, omgmta1.qq.com, reject
 HOST,t7z.cupid.iqiyi.com, reject
 HOST,t7z.cupid.ptqy.gitv.tv, reject
 HOST,cr-status.iqiyi.com, reject
-host-suffix,cupid.iqiyi.com, reject
+HOST-SUFFIX,cupid.iqiyi.com, reject
 HOST,f74f7f7765f8a2f6.ngaa.net.cn, reject
 HOST,ef-dongfeng.tanx.com, reject
 HOST,iqiyim.adtrack.enlightent.cn, reject
