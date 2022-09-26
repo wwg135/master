@@ -1,6 +1,6 @@
 ## 广告拦截→→→精简版
 ## write: wwg135  
-## update：2022.09.24 13:35
+## update：2022.09.26 10:39
 
 # >  腾讯视频
 HOST, h.trace.qq.com, reject
@@ -87,6 +87,7 @@ HOST-SUFFIX,val.api.youku.com, reject
 HOST-SUFFIX,wan.youku.com, reject
 HOST-SUFFIX,ykatr.youku.com, reject
 HOST-SUFFIX,ykrec.youku.com, reject
+USER-AGENT,^http:\/\/.*\.cp31\.ott\.cibntv\.net\/youku\/, reject-image
 # > 今日头条
 HOST-keyword, ad.toutiao.com, reject
 HOST-keyword, clk.gentags.net, reject
