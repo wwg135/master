@@ -3,10 +3,11 @@
 ## update：2022.09.26 10:39
 
 # >  腾讯视频
-HOST, h.trace.qq.com, reject
+HOST,h.trace.qq.com, reject
 HOST,safebrowsing.urlsec.qq.com, reject
 HOST,adsmind.apdcdn.tc.qq.com, reject
 HOST,adsmind.tc.qq.com, reject
+HOST,pgdt.gtimg.cn, reject
 HOST,adsmind.ugdtimg.com, reject
 HOST,livep.l.t002.ottcn.com, reject
 HOST,pgdt.ugdtimg.com, reject
