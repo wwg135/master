@@ -149,4 +149,5 @@ HOST,tx-ad.a.yximgs.com, reject
 HOST,p1-lm.adkwai.com, reject
 HOST,images.pinduoduo.com, reject
 HOST-SUFFIX,yximgs.com, reject
+HOST,adsmind.ugdtimg.com, reject
 # end
