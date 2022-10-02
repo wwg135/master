@@ -144,4 +144,9 @@ HOST-SUFFIX,click.tz.simba.taobao.com, reject
 HOST-SUFFIX,stat.simba.taobao.com, reject
 HOST-SUFFIX,m-adash.m.taobao.com, reject
 HOST-SUFFIX,adashbc.m.taobao.com, reject
+# >  雷速体育
+HOST,tx-ad.a.yximgs.com, reject
+HOST,p1-lm.adkwai.com, reject
+HOST,images.pinduoduo.com, reject
+HOST-SUFFIX,yximgs.com, reject
 # end
