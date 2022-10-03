@@ -1,6 +1,6 @@
 ## 广告拦截→→→精简版
 ## write: wwg135  
-## update：2022.09.26 10:39
+## update：2022.10.03 11:02
 
 # >  腾讯视频
 HOST,h.trace.qq.com, reject
@@ -150,4 +150,6 @@ HOST,p1-lm.adkwai.com, reject
 HOST,images.pinduoduo.com, reject
 HOST-SUFFIX,yximgs.com, reject
 HOST,adsmind.ugdtimg.com, reject
+HOST,pgdt.gtimg.cn, reject
+HOST,js-ad.a.yximgs.com, reject
 # end
