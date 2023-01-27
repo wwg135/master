@@ -1,5 +1,5 @@
 /*
-21 3,8 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/main/Task/JD/jd_speed_signfaker.js, tag=京东极速版, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true
+21 3,8 * * * https://raw.githubusercontent.com/wwg135/master/Quantumult-X/task/jd_speed_signfaker.js, tag=京东极速版, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true
 */
 
 const $ = new Env('京东极速版');
