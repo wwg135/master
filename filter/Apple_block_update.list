@@ -1,6 +1,6 @@
 # Apple_block_update
 # writer: wwg135
-# update: 2022.09.24 13:39
+# update: 2023.02.07 14:17
 
 # > Apple
 HOST,ns.itunes.apple.com
@@ -12,6 +12,5 @@ HOST-SUFFIX,iadsdk.apple.com
 HOST-SUFFIX,ads.internal.unity3d.com
 HOST-SUFFIX,ads.prd.ie.internal.unity3d.com
 HOST-SUFFIX,unityads.unity3d.com
-# > 高德地图
-HOST, amdc.m.taobao.com
-# end
+HOST,ocsp2.apple.com
+HOST,ocsp.apple.com
