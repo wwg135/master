@@ -849,3 +849,8 @@
 "showCancelButtonOnThemingEnd" = "结束时显示取消按钮";
 "noThemingFixup" = "不修复目录";
 "Springboard" = "Springboard";
+"Visible" = "还原";
+"Color" = "颜色";
+"Disabled" = "禁用";
+"Set notification banner color" = "设置通知横幅颜色";
+"None" = "不使用";
