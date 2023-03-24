@@ -854,3 +854,6 @@
 "Disabled" = "禁用";
 "Set notification banner color" = "设置通知横幅颜色";
 "None" = "不使用";
+"Default" = "默认";
+"Off" = "关闭";
+"Disabled Screen Time" = "禁用屏幕时间";
