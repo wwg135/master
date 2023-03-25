@@ -364,7 +364,7 @@
 "Keyboard Press Normal" = "键盘输入";
 
 /* Audio name */
-"Lock" = "锁定";
+"Lock" = "锁屏音效";
 
 /* Category of tool */
 "Lock Screen" = "锁屏界面";
@@ -379,7 +379,7 @@
 "Lock Type" = "锁定类型";
 
 /* Title of tool */
-"Locks" = "锁定";
+"Locks" = "锁头图标";
 
 /* No comment provided by engineer. */
 "Log in" = "登录";
