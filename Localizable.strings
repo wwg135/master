@@ -201,7 +201,7 @@
 "Disable Shortcut Apps as Appclips" = "禁用将捷径生成的软件作为轻App";
 
 /* No comment provided by engineer. */
-"Dock" = "Dock";
+"Dock" = "Dock栏";
 
 /* iPhone 14 Pro SubType */
 "Dynamic Island" = "灵动岛";
@@ -255,7 +255,7 @@
 "Files" = "文件";
 
 /* No comment provided by engineer. */
-"Fix tweaks" = "修复插件";
+"Fix tweaks" = "修复调整";
 
 /* No comment provided by engineer. */
 "Folder" = "文件夹";
@@ -270,7 +270,7 @@
 "Forgot password?" = "忘记密码?";
 
 /* Where to import passcode theme from */
-"From where do you want to import from?" = "从哪里导入?";
+"From where do you want to import from?" = "你想从哪里导入?";
 
 /* No comment provided by engineer. */
 "Gestures / Dynamic Island" = "手势 / 灵动岛";
@@ -328,7 +328,7 @@
 "Home" = "桌面";
 
 /* Category of tool */
-"Home Screen" = "桌面";
+"Home Screen" = "主屏幕";
 
 /* No comment provided by engineer. */
 "I'm not a robot (no cap)" = "我不是机器人";
@@ -385,7 +385,7 @@
 "Log in" = "登录";
 
 /* No comment provided by engineer. */
-"Log in Sourced" = "Log in Sourced";
+"Log in Sourced" = "登录来源";
 
 /* Audio name */
 "Low Power" = "低电量";
@@ -654,17 +654,17 @@
 "Your device will respring." = "你的设备将会注销";
 
 /* Category of tool */
-"Control Center" = "顶部状态栏";
+"Control Center" = "控制中心";
 
 /* Springboard tool */
-"Notification Banner Background" = "顶部通知背景";
+"Notification Banner Background" = "通知横幅背景";
 
 /* Springboard tool */
-"Notification Banner Shadow" = "顶部通知阴影";
+"Notification Banner Shadow" = "通知横幅背光";
 
 /* Alert tool */
-"Successfully applied tweaks" = "应用已调整成功";
-"Respring to see changes" = "注销后以查看更改";
+"Successfully applied tweaks" = "应用已应用成功";
+"Respring to see changes" = "注销后以查看效果";
 
 /* APPS*/
 "APPS" = "应用";
@@ -688,7 +688,7 @@
 "Select" = "选择";
 "Selected" = "已选择";
 "Change" = "更改";
-"Notification Banner" = "顶部通知";
+"Notification Banner" = "通知横幅";
 "Whitelist" = "白名单";
 "Overwrite Blacklist" = "覆盖黑名单";
 "Overwrite CDHashes" = "覆盖CDHashes";
@@ -711,7 +711,7 @@
 "Choose app Icon" = "选择App图标";
 "Included Audio, Credits, and Card Changer" = "包括音频、信用卡和换卡器";
 "Whitelist, AirPower Audio, Various fixes" = "白名单，AirPower音频，问题修复";
-"CC Modules" = "控制中心";
+"CC Modules" = "控制中心按钮";
 "Info" = "信息";
 "Applies all tweaks which were applied before." = "应用之前所有应用调整。";
 /* respring info */
@@ -719,13 +719,13 @@
 "Disable Screen Time" = "禁用屏幕使用时间";
 "Screen time was successfully disabled, please reboot to finish application." = "屏幕时间已禁用，请重新启动以完成应用程序设置。";
 "Please wait" = "请稍等";
-"Downloading" = "下载";
+"Downloading" = "下载中";
 "The theme was successfully downloaded and saved!" = "主题已成功下载并保存！";
 "Could not download theme!" = "无法下载主题!";
 "Rename theme" = "重命名主题";
 "New theme name" = "新的主题名称";
 "Rename" = "重命名";
-"Remove theme" = "移出主题";
+"Remove theme" = "移除主题";
 "Alternatives" = "备选方案";
 "No themes found. Download themes in the Explore tab,\nor import them using the button in the top right corner (Themes have to contain icons in the format of <id>.png)." = "找不到主题。请在“探索”选项卡中下载主题，或使用右上角的按钮导入主题（主题必须包含<id>.png格式的图标）";
 "Wait, it's all TrollTools?" = "等等，这是TrollTools？";
@@ -770,7 +770,7 @@
 "Add Value" = "添加属性";
 "Plist Data" = "Plist数据";
 "Saving operation..." = "正在保存...";
-"Please select a file to import!" = "请选择导入的文件";
+"Please select a file to import!" = "请选择导入的文件！";
 "The operation was successfully saved!" = "操作已成功保存！";
 "An error occurred while saving the operation" = "保存操作时出错";
 "Save" = "保存";
