@@ -469,7 +469,7 @@
 "Please respring to hear changes." = "请注销来听新音效";
 
 /* No comment provided by engineer. */
-"Please respring to see changes." = "请注销以查看调整的效果";
+"Please respring to see changes." = "请注销以查看效果";
 
 /* No comment provided by engineer. */
 "Preferences" = "偏好设置";
@@ -748,20 +748,20 @@
 "Remove Icons" = "移除图标";
 "Remove Labels" = "移除名称";
 "Remove Previews" = "移除预览";
-"Use Settings Footnote" = "使用脚注";
+"Use Settings Footnote" = "使用设置脚注";
 "Footnote:" = "脚注:";
 "Image:" = "图片:";
 "Remove Image" = "移除图片";
 "Select Image" = "选择图片";
 "Choose an operation type" = "选择操作类型";
 "Enabled" = "启用";
-"File not found!" = "文件未发现";
+"File not found!" = "文件未发现！";
 "Apply in Background" = "允许后台运行";
 "Action" = "动作";
 "Replace With:" = "替换为：";
 "Upload File" = "上传文件";
 "Replacement Data" = "替换数据";
-"Plist Type:" = "Plist类型";
+"Plist Type:" = "Plist类型：";
 "Choose a plist type" = "选择Plist类型";
 "Size not calculated" = "大小未计算";
 "Could not calculate plist size!" = "无法计算Plist大小！";
