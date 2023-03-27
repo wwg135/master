@@ -1,5 +1,5 @@
 /** 
-☑️ 资源解析器 ©𝐒𝐡𝐚𝐰𝐧  ⟦2023-03-23 15:10⟧
+☑️ 资源解析器 ©𝐒𝐡𝐚𝐰𝐧  ⟦2023-03-27 11:02⟧
 ----------------------------------------------------------
 🛠 发现 𝐁𝐔𝐆 请反馈: https://t.me/Shawn_Parser_Bot
 ⛳️ 关注 🆃🅶 相关频道: https://t.me/QuanX_API
@@ -29,7 +29,7 @@
   ❖ alpn, 指定over-tls类型节点的alpn参数
 ⦿ in, out, regex, regout 分别为 保留、删除、正则保留、正则删除 节点;
   ❖ in/out 仅对节点名匹配生效, 多参数(逻辑"或")用 "+", 逻辑"与"用 "." 表示;
-  ❖ regex/regout 对节点的完整信息进行匹配(类型、端口、加密等)；
+  ❖ regex/regout 对节点的完整信息进行匹配(类型、端口、加密等);
   ❖ 示范: "in=香港.0\.2倍率+台湾&out=BGP&regex=iplc"
 ⦿ rename 重命名, "旧名@新名", "前缀@", "@后缀", 用 "+" 连接多个参数;
   ❖ 删除字段: "字段1.字段2☠️", 想删除 "." 时用 "\." 替代
@@ -2485,6 +2485,7 @@ function get_emoji(emojip, sname) {
     "🇬🇹": ["危地马拉", " GT "],
     "🇭🇰": ["HK", "Hongkong", "Hong Kong", "HongKong", "HONG KONG","香港", "深港", "沪港", "呼港", "HKT", "HKBN", "HGC", "WTT", "CMI", "穗港", "京港", "港"],
     "🇨🇳": ["CN", "China", "回国", "中国","中國", "江苏", "北京", "上海", "广州", "深圳", "杭州", "徐州", "青岛", "宁波", "镇江", "back"],
+    "🇬🇺": ["关岛"],
     "🇱🇧": ["黎巴嫩","LB", "Lebanon"],
     "🇧🇳": ["文莱","BRN","Negara Brunei Darussalam"],
     "🌏": ["亚洲","Asia"]
@@ -2759,11 +2760,11 @@ function YAMLFix(cnt){
     cnt = cnt.replace(/{\s*name: /g,"{name: \"").replace(/, server:/g,"\", server:")
     cnt = cnt.replace(/{|}/g,"").replace(/,/g,"\n   ")
   }
-  cnt = cnt.replace(/\n\s*\-\s*\n.*name/g,"\n  - name").replace(/\$|\`/g,"").split("proxy-providers:")[0].split("proxy-groups:")[0].replace(/\"(name|type|server|port|cipher|password)(\"*)/g,"$1")
+  cnt = cnt.replace(/\n\s*\-\s*\n.*name/g,"\n  - name").replace(/\$|\`/g,"").split("proxy-providers:")[0].split("proxy-groups:")[0].replace(/\"(name|type|server|port|cipher|password|uuid|alterId|udp)(\"*)/g,"$1")
     if(Pdbg == 1) {
   $notify("part-fix0:","","part-fix0:\nproxies:\n"+cnt.split("proxies:")[1])}
   // 2023-03-23  👇修正部分类型
-  cnt = cnt.replace(/\n\s{2}([a-zA-Z]+.*\:)/g,"\n    $1")
+  cnt = cnt.replace(/\n\s{2}([a-zA-Z]+.*\:)/g,"\n    $1").replace(/\n(\-.*)/g,"\n  $1")
   if(Pdbg == 1) {
   $notify("part-fix1:","","part-fix1:\nproxies:\n"+cnt.split("proxies:")[1])}
   // cnt = cnt.indexOf("proxies:") == -1? "proxies:\n" + cnt :"proxies:"+cnt.split("proxies:")[1]
@@ -2777,7 +2778,7 @@ function YAMLFix(cnt){
   //2022-09-01 remove host in s{6}(H|h)ost
   //cnt = cnt.indexOf("proxies:") != -1?cnt.replace(/\n\s{4}headers/g,"\n      headers").replace(/\n\s{6}Host/g,"\n        Host").replace(/\t/g,""):cnt
   //2022-11-29 修改
-  cnt = cnt.indexOf("proxies:") != -1 && cnt.indexOf("\n\s{4}server")!=-1 ? cnt.replace(/\n\s{4}headers/g,"\n      headers").replace(/\n\s{6}Host/g,"\n        Host").replace(/\t/g,""):cnt
+  cnt = cnt.indexOf("proxies:") != -1 && /\n\s{4}server/.test(cnt)  ? cnt.replace(/\n\s{4}(headers|path)/g,"\n      $1").replace(/\n\s{6}Host/g,"\n        Host").replace(/\t/g,""):cnt
   //console.log("part-fix:\n"+cnt.split("proxies:")[1])
   cnt = cnt.indexOf("proxies:") == -1? "proxies:\n" + cnt :"proxies:"+cnt.split("proxies:")[1]
   console.log("after-fix\n"+cnt)
